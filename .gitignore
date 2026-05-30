@@ -62,3 +62,12 @@ src/data/bilibili-data.json
 
 .vercel
 .gstack/
+
+# Playwright MCP logs and screenshots
+.playwright-mcp/
+
+# Devin
+.devin/
+
+# Screenshots
+*.png
