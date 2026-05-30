@@ -1,0 +1,14 @@
+[     245ms] [LOG] TOC Config: {enable: true, depth: 2, useJapaneseBadge: false} @ http://localhost:3000/about/:16155
+[     494ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://api.github.com/repos/LyraVoid/Mizuki:0
+[     507ms] [WARNING] [GITHUB-CARD] (Error) Loading card for LyraVoid/Mizuki | GCok7j1e. @ http://localhost:3000/about/:17800
+[     512ms] [LOG] Pagefind is not available in development mode. Using mock data. @ http://localhost:3000/src/components/organisms/navigation/Search.svelte:195
+[     512ms] [LOG] Pagefind status on init: false @ http://localhost:3000/src/components/organisms/navigation/Search.svelte:191
+[     576ms] [LOG] PanelHandler: 初始化完成 @ http://localhost:3000/src/scripts/handlers/panel-handler.ts:35
+[     577ms] [LOG] SwupManager: 初始化完成 @ http://localhost:3000/src/scripts/swup-manager.ts:51
+[  233341ms] [LOG] TOC Config: {enable: true, depth: 2, useJapaneseBadge: false} @ http://localhost:3000/about/:16155
+[  234285ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://api.github.com/repos/LyraVoid/Mizuki:0
+[  234310ms] [WARNING] [GITHUB-CARD] (Error) Loading card for LyraVoid/Mizuki | GCok7j1e. @ http://localhost:3000/about/:17800
+[  234540ms] [LOG] Pagefind is not available in development mode. Using mock data. @ http://localhost:3000/src/components/organisms/navigation/Search.svelte:195
+[  234541ms] [LOG] Pagefind status on init: false @ http://localhost:3000/src/components/organisms/navigation/Search.svelte:191
+[  234550ms] [LOG] PanelHandler: 初始化完成 @ http://localhost:3000/src/scripts/handlers/panel-handler.ts:35
+[  234551ms] [LOG] SwupManager: 初始化完成 @ http://localhost:3000/src/scripts/swup-manager.ts:51

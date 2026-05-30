@@ -1,0 +1,11 @@
+[     102ms] [LOG] TOC Config: {enable: true, depth: 2, useJapaneseBadge: false} @ http://localhost:3000/devices/:16155
+[     296ms] [LOG] Pagefind is not available in development mode. Using mock data. @ http://localhost:3000/src/components/organisms/navigation/Search.svelte:195
+[     297ms] [LOG] Pagefind status on init: false @ http://localhost:3000/src/components/organisms/navigation/Search.svelte:191
+[     300ms] [LOG] PanelHandler: 初始化完成 @ http://localhost:3000/src/scripts/handlers/panel-handler.ts:35
+[     301ms] [LOG] SwupManager: 初始化完成 @ http://localhost:3000/src/scripts/swup-manager.ts:51
+[   51068ms] [ERROR] %cAstro background: linear-gradient(66.77deg, #D83333 0%, #F041FF 100%); color: white; padding-inline: 4px; border-radius: 2px; font-family: monospace; Error while running audit's match function: TypeError: Failed to fetch @ http://localhost:3000/node_modules/.vite/deps/chunk-C36SEBYI.js?v=f6f9060c:22
+[   51237ms] [LOG] TOC Config: {enable: true, depth: 2, useJapaneseBadge: false} @ http://localhost:3000/devices/:16155
+[   51979ms] [LOG] Pagefind is not available in development mode. Using mock data. @ http://localhost:3000/src/components/organisms/navigation/Search.svelte:195
+[   51979ms] [LOG] Pagefind status on init: false @ http://localhost:3000/src/components/organisms/navigation/Search.svelte:191
+[   52047ms] [LOG] PanelHandler: 初始化完成 @ http://localhost:3000/src/scripts/handlers/panel-handler.ts:35
+[   52048ms] [LOG] SwupManager: 初始化完成 @ http://localhost:3000/src/scripts/swup-manager.ts:51

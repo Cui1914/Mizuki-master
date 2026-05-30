@@ -1,0 +1,10 @@
+[     156ms] [LOG] TOC Config: {enable: true, depth: 2, useJapaneseBadge: false} @ http://localhost:3000/devices/:16155
+[     390ms] [LOG] Pagefind is not available in development mode. Using mock data. @ http://localhost:3000/src/components/organisms/navigation/Search.svelte:195
+[     390ms] [LOG] Pagefind status on init: false @ http://localhost:3000/src/components/organisms/navigation/Search.svelte:191
+[     437ms] [LOG] PanelHandler: 初始化完成 @ http://localhost:3000/src/scripts/handlers/panel-handler.ts:35
+[     440ms] [LOG] SwupManager: 初始化完成 @ http://localhost:3000/src/scripts/swup-manager.ts:51
+[   74322ms] [LOG] TOC Config: {enable: true, depth: 2, useJapaneseBadge: false} @ http://localhost:3000/devices/:16155
+[   74719ms] [LOG] Pagefind is not available in development mode. Using mock data. @ http://localhost:3000/src/components/organisms/navigation/Search.svelte:195
+[   74719ms] [LOG] Pagefind status on init: false @ http://localhost:3000/src/components/organisms/navigation/Search.svelte:191
+[   74772ms] [LOG] PanelHandler: 初始化完成 @ http://localhost:3000/src/scripts/handlers/panel-handler.ts:35
+[   74773ms] [LOG] SwupManager: 初始化完成 @ http://localhost:3000/src/scripts/swup-manager.ts:51

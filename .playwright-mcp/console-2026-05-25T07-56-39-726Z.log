@@ -1,0 +1,5 @@
+[     142ms] [LOG] TOC Config: {enable: true, depth: 2, useJapaneseBadge: false} @ http://localhost:3000/:16155
+[     337ms] [LOG] Pagefind is not available in development mode. Using mock data. @ http://localhost:3000/src/components/organisms/navigation/Search.svelte:195
+[     337ms] [LOG] Pagefind status on init: false @ http://localhost:3000/src/components/organisms/navigation/Search.svelte:191
+[     370ms] [LOG] PanelHandler: 初始化完成 @ http://localhost:3000/src/scripts/handlers/panel-handler.ts:35
+[     370ms] [LOG] SwupManager: 初始化完成 @ http://localhost:3000/src/scripts/swup-manager.ts:51

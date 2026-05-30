@@ -1,0 +1,571 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e5]:
+    - link "黑利群" [ref=e6] [cursor=pointer]:
+      - /url: /
+      - generic [ref=e8]: 黑利群
+    - generic [ref=e9]:
+      - link "主页" [ref=e11] [cursor=pointer]:
+        - /url: /
+        - img [ref=e12]
+        - generic [ref=e14]: 主页
+      - link "归档" [ref=e16] [cursor=pointer]:
+        - /url: /archive/
+        - img [ref=e17]
+        - generic [ref=e19]: 归档
+      - button "链接" [ref=e21]:
+        - img [ref=e22]
+        - generic [ref=e24]: 链接
+        - img [ref=e25]
+      - button "我的" [ref=e28]:
+        - img [ref=e29]
+        - generic [ref=e31]: 我的
+        - img [ref=e32]
+      - button "关于" [ref=e35]:
+        - img [ref=e36]
+        - generic [ref=e38]: 关于
+        - img [ref=e39]
+      - button "其他" [ref=e42]:
+        - img [ref=e43]
+        - generic [ref=e45]: 其他
+        - img [ref=e46]
+    - generic [ref=e48]:
+      - button "Search" [ref=e52] [cursor=pointer]:
+        - img
+        - textbox "搜索" [ref=e53]
+      - generic:
+        - generic:
+          - generic:
+            - heading "目录" [level=3]
+            - button "Close TOC"
+          - generic:
+            - paragraph: 当前页面没有目录
+      - button "Display Settings" [ref=e54]:
+        - img [ref=e55]
+      - button "切换到网格模式" [ref=e58]:
+        - img [ref=e60]
+      - menu [ref=e64]:
+        - menuitem "Wallpaper Mode" [ref=e65]:
+          - img [ref=e66]
+        - generic:
+          - generic:
+            - menuitem "横幅模式"
+            - menuitem "全屏模式"
+            - menuitem "隐藏壁纸"
+      - button "Light/Dark Mode" [ref=e69]:
+        - img [ref=e71]
+        - img [ref=e74]
+    - generic:
+      - generic:
+        - link "主页":
+          - /url: /
+          - generic:
+            - img
+            - text: 主页
+          - img
+      - generic:
+        - link "归档":
+          - /url: /archive/
+          - generic:
+            - img
+            - text: 归档
+          - img
+      - generic:
+        - generic:
+          - button "链接":
+            - generic:
+              - img
+              - text: 链接
+            - img
+          - generic:
+            - link "GitHub":
+              - /url: https://github.com/Cui1914
+              - generic:
+                - img
+                - text: GitHub
+              - img
+            - link "Bilibili":
+              - /url: https://space.bilibili.com/353704869?spm_id_from=333.1007.0.0
+              - generic:
+                - img
+                - text: Bilibili
+              - img
+            - link "Gitee":
+              - /url: https://gitee.com/Heiliqun
+              - generic:
+                - img
+                - text: Gitee
+              - img
+      - generic:
+        - generic:
+          - button "我的":
+            - generic:
+              - img
+              - text: 我的
+            - img
+          - generic:
+            - link "追番":
+              - /url: /anime/
+              - generic:
+                - img
+                - text: 追番
+            - link "日记":
+              - /url: /diary/
+              - generic:
+                - img
+                - text: 日记
+            - link "相册":
+              - /url: /albums/
+              - generic:
+                - img
+                - text: 相册
+            - link "我的设备":
+              - /url: /devices/
+              - generic:
+                - img
+                - text: 我的设备
+      - generic:
+        - generic:
+          - button "关于":
+            - generic:
+              - img
+              - text: 关于
+            - img
+          - generic:
+            - link "关于":
+              - /url: /about/
+              - generic:
+                - img
+                - text: 关于
+            - link "友链":
+              - /url: /friends/
+              - generic:
+                - img
+                - text: 友链
+      - generic:
+        - generic:
+          - button "其他":
+            - generic:
+              - img
+              - text: 其他
+            - img
+          - generic:
+            - link "项目展示":
+              - /url: /projects/
+              - generic:
+                - img
+                - text: 项目展示
+            - link "技能展示":
+              - /url: /skills/
+              - generic:
+                - img
+                - text: 技能展示
+            - link "时间线":
+              - /url: /timeline/
+              - generic:
+                - img
+                - text: 时间线
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - text: 主题色
+            - button "Reset to Default"
+          - generic:
+            - generic: "240"
+        - generic:
+          - slider "主题色": "240"
+  - generic [ref=e76]:
+    - generic [ref=e79]:
+      - img "Desktop banner image 1"
+    - generic [ref=e82]:
+      - heading "黑利群" [level=1] [ref=e83]
+      - heading "A" [level=2] [ref=e84]:
+        - generic [ref=e86]: A
+    - img [ref=e88]
+  - generic [ref=e94]:
+    - generic [ref=e95]:
+      - generic [ref=e96]:
+        - generic [ref=e97]:
+          - generic [ref=e99]:
+            - generic [ref=e100]:
+              - link "Go to About Page" [ref=e101] [cursor=pointer]:
+                - /url: /about/
+                - generic:
+                  - img
+                - img "Profile Image of the Author" [ref=e104]
+              - generic [ref=e105]:
+                - generic [ref=e106]: 黑利群
+                - generic [ref=e109]: V
+                - generic [ref=e110]:
+                  - link "GitHub" [ref=e111] [cursor=pointer]:
+                    - /url: https://github.com/Cui1914
+                    - img [ref=e112]
+                  - link "Bilibili" [ref=e114] [cursor=pointer]:
+                    - /url: "#"
+                    - img [ref=e115]
+            - generic [ref=e117]:
+              - generic [ref=e118]: 公告
+              - generic [ref=e120]:
+                - generic [ref=e121]: 欢迎来到黑利群的博客！
+                - generic [ref=e122]:
+                  - link "了解更多" [ref=e124] [cursor=pointer]:
+                    - /url: /about/
+                  - button "关闭" [ref=e125]:
+                    - img [ref=e126]
+            - generic [ref=e128]:
+              - generic [ref=e129]: 标签
+              - generic [ref=e131]:
+                - link "View all posts with the 工作流 tag" [ref=e132] [cursor=pointer]:
+                  - /url: /archive/?tag=%E5%B7%A5%E4%BD%9C%E6%B5%81
+                  - text: 工作流
+                - link "View all posts with the 记录 tag" [ref=e133] [cursor=pointer]:
+                  - /url: /archive/?tag=%E8%AE%B0%E5%BD%95
+                  - text: 记录
+                - link "View all posts with the 开发工具 tag" [ref=e134] [cursor=pointer]:
+                  - /url: /archive/?tag=%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7
+                  - text: 开发工具
+                - link "View all posts with the 前端 tag" [ref=e135] [cursor=pointer]:
+                  - /url: /archive/?tag=%E5%89%8D%E7%AB%AF
+                  - text: 前端
+                - link "View all posts with the 设计系统 tag" [ref=e136] [cursor=pointer]:
+                  - /url: /archive/?tag=%E8%AE%BE%E8%AE%A1%E7%B3%BB%E7%BB%9F
+                  - text: 设计系统
+                - link "View all posts with the 知识图谱 tag" [ref=e137] [cursor=pointer]:
+                  - /url: /archive/?tag=%E7%9F%A5%E8%AF%86%E5%9B%BE%E8%B0%B1
+                  - text: 知识图谱
+                - link "View all posts with the AI 工具 tag" [ref=e138] [cursor=pointer]:
+                  - /url: /archive/?tag=AI%20%E5%B7%A5%E5%85%B7
+                  - text: AI 工具
+                - link "View all posts with the Blogging tag" [ref=e139] [cursor=pointer]:
+                  - /url: /archive/?tag=Blogging
+                  - text: Blogging
+                - link "View all posts with the Claude tag" [ref=e140] [cursor=pointer]:
+                  - /url: /archive/?tag=Claude
+                  - text: Claude
+                - link "View all posts with the Claude Code tag" [ref=e141] [cursor=pointer]:
+                  - /url: /archive/?tag=Claude%20Code
+                  - text: Claude Code
+                - link "View all posts with the GitHub tag" [ref=e142] [cursor=pointer]:
+                  - /url: /archive/?tag=GitHub
+                  - text: GitHub
+                - link "View all posts with the MCP tag" [ref=e143] [cursor=pointer]:
+                  - /url: /archive/?tag=MCP
+                  - text: MCP
+                - link "View all posts with the Vibecoding tag" [ref=e144] [cursor=pointer]:
+                  - /url: /archive/?tag=Vibecoding
+                  - text: Vibecoding
+          - generic [ref=e147]:
+            - generic [ref=e148]: 目录
+            - paragraph [ref=e154]: 当前页面没有目录
+        - generic [ref=e156]:
+          - generic [ref=e158]:
+            - generic [ref=e159]:
+              - generic [ref=e160]: 站点统计
+              - generic [ref=e162]:
+                - generic [ref=e163]:
+                  - generic [ref=e164]:
+                    - img [ref=e166]
+                    - generic [ref=e168]: 文章
+                  - generic [ref=e170]: "4"
+                - generic [ref=e171]:
+                  - generic [ref=e172]:
+                    - img [ref=e174]
+                    - generic [ref=e176]: 分类
+                  - generic [ref=e178]: "2"
+                - generic [ref=e179]:
+                  - generic [ref=e180]:
+                    - img [ref=e182]
+                    - generic [ref=e184]: 标签
+                  - generic [ref=e186]: "13"
+                - generic [ref=e187]:
+                  - generic [ref=e188]:
+                    - img [ref=e190]
+                    - generic [ref=e192]: 总字数
+                  - generic [ref=e194]: 4,912
+                - generic [ref=e195]:
+                  - generic [ref=e196]:
+                    - img [ref=e198]
+                    - generic [ref=e200]: 运行天数
+                  - generic [ref=e201]:
+                    - generic [ref=e202]: "2"
+                    - generic [ref=e203]: 天
+                - generic [ref=e204]:
+                  - generic [ref=e205]:
+                    - img [ref=e207]
+                    - generic [ref=e209]: 最后活动
+                  - generic [ref=e210]:
+                    - generic [ref=e211]: "1"
+                    - generic [ref=e212]: 天前
+            - generic [ref=e215]:
+              - generic [ref=e216]:
+                - button "Select month or year" [ref=e218] [cursor=pointer]:
+                  - generic [ref=e219]: 2026年 5月
+                - generic [ref=e220]:
+                  - button "Previous month" [ref=e221]
+                  - button "Next month" [ref=e222]
+              - generic [ref=e224]:
+                - generic [ref=e225]:
+                  - generic [ref=e226]: 一
+                  - generic [ref=e227]: 二
+                  - generic [ref=e228]: 三
+                  - generic [ref=e229]: 四
+                  - generic [ref=e230]: 五
+                  - generic [ref=e231]: 六
+                  - generic [ref=e232]: 日
+                - generic [ref=e233]:
+                  - button "1" [ref=e238] [cursor=pointer]
+                  - button "2" [ref=e239] [cursor=pointer]
+                  - button "3" [ref=e240] [cursor=pointer]
+                  - button "4" [ref=e241] [cursor=pointer]
+                  - button "5" [ref=e242] [cursor=pointer]
+                  - button "6" [ref=e243] [cursor=pointer]
+                  - button "7" [ref=e244] [cursor=pointer]
+                  - button "8" [ref=e245] [cursor=pointer]
+                  - button "9" [ref=e246] [cursor=pointer]
+                  - button "10" [ref=e247] [cursor=pointer]
+                  - button "11" [ref=e248] [cursor=pointer]
+                  - button "12" [ref=e249] [cursor=pointer]
+                  - button "13" [ref=e250] [cursor=pointer]
+                  - button "14" [ref=e251] [cursor=pointer]
+                  - button "15" [ref=e252] [cursor=pointer]
+                  - button "16" [ref=e253] [cursor=pointer]
+                  - button "17" [ref=e254] [cursor=pointer]
+                  - button "18" [ref=e255] [cursor=pointer]
+                  - button "19" [ref=e256] [cursor=pointer]
+                  - button "20" [ref=e257] [cursor=pointer]
+                  - button "21" [ref=e258] [cursor=pointer]
+                  - button "22" [ref=e259] [cursor=pointer]
+                  - button "23" [ref=e260] [cursor=pointer]
+                  - button "24" [ref=e261] [cursor=pointer]
+                  - button "25" [ref=e262] [cursor=pointer]
+                  - button "26" [ref=e263] [cursor=pointer]
+                  - button "27" [ref=e264] [cursor=pointer]
+                  - button "28" [ref=e265] [cursor=pointer]
+                  - button "29" [ref=e266] [cursor=pointer]
+                  - button "30" [ref=e267] [cursor=pointer]
+                  - button "31" [ref=e268] [cursor=pointer]
+          - generic [ref=e271]:
+            - generic [ref=e272]: 分类
+            - generic [ref=e273]:
+              - link "View all posts in the 工具观察 category" [ref=e274] [cursor=pointer]:
+                - /url: /archive/?category=%E5%B7%A5%E5%85%B7%E8%A7%82%E5%AF%9F
+                - button "工具观察 3" [ref=e275]:
+                  - generic [ref=e276]:
+                    - generic [ref=e277]: 工具观察
+                    - generic [ref=e278]: "3"
+              - link "View all posts in the 生活记录 category" [ref=e279] [cursor=pointer]:
+                - /url: /archive/?category=%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95
+                - button "生活记录 1" [ref=e280]:
+                  - generic [ref=e281]:
+                    - generic [ref=e282]: 生活记录
+                    - generic [ref=e283]: "1"
+      - main [ref=e284]:
+        - generic [ref=e285]:
+          - generic [ref=e287]:
+            - link "主页" [ref=e288] [cursor=pointer]:
+              - /url: /
+              - img [ref=e289]
+            - link "归档 4" [ref=e291] [cursor=pointer]:
+              - /url: /archive/
+              - text: 归档
+              - generic [ref=e292]: "4"
+            - generic [ref=e295]:
+              - link "工具观察 3" [ref=e296] [cursor=pointer]:
+                - /url: /archive/?category=%E5%B7%A5%E5%85%B7%E8%A7%82%E5%AF%9F
+                - text: 工具观察
+                - generic [ref=e297]: "3"
+              - link "生活记录 1" [ref=e298] [cursor=pointer]:
+                - /url: /archive/?category=%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95
+                - text: 生活记录
+                - generic [ref=e299]: "1"
+          - generic [ref=e300]:
+            - generic [ref=e301]:
+              - generic [ref=e302]:
+                - link "第一篇文章：黑利群的博客开始了" [ref=e303] [cursor=pointer]:
+                  - /url: /posts/first-post/
+                  - img [ref=e304]
+                  - text: 第一篇文章：黑利群的博客开始了
+                  - img [ref=e306]
+                - generic [ref=e308]:
+                  - generic [ref=e309]:
+                    - img [ref=e311]
+                    - generic [ref=e313]: 2026-05-25
+                  - generic [ref=e314]:
+                    - img [ref=e316]
+                    - link "View all posts in the 生活记录 category" [ref=e319] [cursor=pointer]:
+                      - /url: /archive/?category=%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95
+                      - text: 生活记录
+                  - generic [ref=e320]:
+                    - img [ref=e322]
+                    - generic [ref=e324]: 747 字
+                - generic [ref=e325]: 这是黑利群博客的第一篇文章，记录这个站点为什么开始、会写什么，以及接下来想做的事情。
+                - generic [ref=e326]:
+                  - link "View all posts tagged with Vibecoding" [ref=e327] [cursor=pointer]:
+                    - /url: /archive/?tag=Vibecoding
+                    - generic [ref=e328]: "# Vibecoding"
+                  - link "View all posts tagged with Blogging" [ref=e329] [cursor=pointer]:
+                    - /url: /archive/?tag=Blogging
+                    - generic [ref=e330]: "# Blogging"
+                  - link "View all posts tagged with 记录" [ref=e331] [cursor=pointer]:
+                    - /url: /archive/?tag=%E8%AE%B0%E5%BD%95
+                    - generic [ref=e332]: "# 记录"
+              - link "第一篇文章：黑利群的博客开始了" [ref=e333] [cursor=pointer]:
+                - /url: /posts/first-post/
+                - img [ref=e334]
+            - generic [ref=e336]:
+              - generic [ref=e337]:
+                - link "GitHub 热门项目观察：Taste-Skill，给 AI 编程助手注入设计品味" [ref=e338] [cursor=pointer]:
+                  - /url: /posts/2026-05-29-taste-skill/
+                  - text: GitHub 热门项目观察：Taste-Skill，给 AI 编程助手注入设计品味
+                  - img [ref=e339]
+                - generic [ref=e341]:
+                  - generic [ref=e342]:
+                    - img [ref=e344]
+                    - generic [ref=e346]: 2026-05-29
+                  - generic [ref=e347]:
+                    - img [ref=e349]
+                    - link "View all posts in the 工具观察 category" [ref=e352] [cursor=pointer]:
+                      - /url: /archive/?category=%E5%B7%A5%E5%85%B7%E8%A7%82%E5%AF%9F
+                      - text: 工具观察
+                  - generic [ref=e353]:
+                    - img [ref=e355]
+                    - generic [ref=e357]: 1530 字
+                - generic [ref=e358]: 观察今天的 GitHub 热门项目 Taste-Skill，它用一套可组合的技能文件，让 AI 编程助手写出有设计感的界面，而不是千篇一律的模板代码。
+                - generic [ref=e359]:
+                  - link "View all posts tagged with GitHub" [ref=e360] [cursor=pointer]:
+                    - /url: /archive/?tag=GitHub
+                    - generic [ref=e361]: "# GitHub"
+                  - link "View all posts tagged with AI 工具" [ref=e362] [cursor=pointer]:
+                    - /url: /archive/?tag=AI%20%E5%B7%A5%E5%85%B7
+                    - generic [ref=e363]: "# AI 工具"
+                  - link "View all posts tagged with 前端" [ref=e364] [cursor=pointer]:
+                    - /url: /archive/?tag=%E5%89%8D%E7%AB%AF
+                    - generic [ref=e365]: "# 前端"
+                  - link "View all posts tagged with 设计系统" [ref=e366] [cursor=pointer]:
+                    - /url: /archive/?tag=%E8%AE%BE%E8%AE%A1%E7%B3%BB%E7%BB%9F
+                    - generic [ref=e367]: "# 设计系统"
+                  - link "View all posts tagged with Claude Code" [ref=e368] [cursor=pointer]:
+                    - /url: /archive/?tag=Claude%20Code
+                    - generic [ref=e369]: "# Claude Code"
+              - link "GitHub 热门项目观察：Taste-Skill，给 AI 编程助手注入设计品味" [ref=e370] [cursor=pointer]:
+                - /url: /posts/2026-05-29-taste-skill/
+                - img [ref=e371]
+            - generic [ref=e373]:
+              - generic [ref=e374]:
+                - link "GitHub 热门项目观察：Knowledge Work Plugins，把 AI 从聊天窗口推进到岗位工作流" [ref=e375] [cursor=pointer]:
+                  - /url: /posts/2026-05-27-knowledge-work-plugins/
+                  - text: GitHub 热门项目观察：Knowledge Work Plugins，把 AI 从聊天窗口推进到岗位工作流
+                  - img [ref=e376]
+                - generic [ref=e378]:
+                  - generic [ref=e379]:
+                    - img [ref=e381]
+                    - generic [ref=e383]: 2026-05-27
+                  - generic [ref=e384]:
+                    - img [ref=e386]
+                    - link "View all posts in the 工具观察 category" [ref=e389] [cursor=pointer]:
+                      - /url: /archive/?category=%E5%B7%A5%E5%85%B7%E8%A7%82%E5%AF%9F
+                      - text: 工具观察
+                  - generic [ref=e390]:
+                    - img [ref=e392]
+                    - generic [ref=e394]: 1537 字
+                - generic [ref=e395]: 观察今天的 GitHub 热门项目 Knowledge Work Plugins，它用插件、技能、命令和连接器，把 Claude 变成面向销售、产品、客服、财务、法务等岗位的工作流助手。
+                - generic [ref=e396]:
+                  - link "View all posts tagged with GitHub" [ref=e397] [cursor=pointer]:
+                    - /url: /archive/?tag=GitHub
+                    - generic [ref=e398]: "# GitHub"
+                  - link "View all posts tagged with AI 工具" [ref=e399] [cursor=pointer]:
+                    - /url: /archive/?tag=AI%20%E5%B7%A5%E5%85%B7
+                    - generic [ref=e400]: "# AI 工具"
+                  - link "View all posts tagged with Claude" [ref=e401] [cursor=pointer]:
+                    - /url: /archive/?tag=Claude
+                    - generic [ref=e402]: "# Claude"
+                  - link "View all posts tagged with MCP" [ref=e403] [cursor=pointer]:
+                    - /url: /archive/?tag=MCP
+                    - generic [ref=e404]: "# MCP"
+                  - link "View all posts tagged with 工作流" [ref=e405] [cursor=pointer]:
+                    - /url: /archive/?tag=%E5%B7%A5%E4%BD%9C%E6%B5%81
+                    - generic [ref=e406]: "# 工作流"
+              - link "GitHub 热门项目观察：Knowledge Work Plugins，把 AI 从聊天窗口推进到岗位工作流" [ref=e407] [cursor=pointer]:
+                - /url: /posts/2026-05-27-knowledge-work-plugins/
+                - img [ref=e408]
+            - generic [ref=e410]:
+              - generic [ref=e411]:
+                - link "GitHub 热门项目观察：Understand Anything，把代码变成可探索的知识图谱" [ref=e412] [cursor=pointer]:
+                  - /url: /posts/2026-05-26-understand-anything/
+                  - text: GitHub 热门项目观察：Understand Anything，把代码变成可探索的知识图谱
+                  - img [ref=e413]
+                - generic [ref=e415]:
+                  - generic [ref=e416]:
+                    - img [ref=e418]
+                    - generic [ref=e420]: 2026-05-26
+                  - generic [ref=e421]:
+                    - img [ref=e423]
+                    - link "View all posts in the 工具观察 category" [ref=e426] [cursor=pointer]:
+                      - /url: /archive/?category=%E5%B7%A5%E5%85%B7%E8%A7%82%E5%AF%9F
+                      - text: 工具观察
+                  - generic [ref=e427]:
+                    - img [ref=e429]
+                    - generic [ref=e431]: 1002 字
+                - generic [ref=e432]: 观察今天的 GitHub 热门项目 Understand Anything，它把代码库、知识库和文档转成可探索的知识图谱，适合拿来理解大型项目和团队知识结构。
+                - generic [ref=e433]:
+                  - link "View all posts tagged with GitHub" [ref=e434] [cursor=pointer]:
+                    - /url: /archive/?tag=GitHub
+                    - generic [ref=e435]: "# GitHub"
+                  - link "View all posts tagged with AI 工具" [ref=e436] [cursor=pointer]:
+                    - /url: /archive/?tag=AI%20%E5%B7%A5%E5%85%B7
+                    - generic [ref=e437]: "# AI 工具"
+                  - link "View all posts tagged with 知识图谱" [ref=e438] [cursor=pointer]:
+                    - /url: /archive/?tag=%E7%9F%A5%E8%AF%86%E5%9B%BE%E8%B0%B1
+                    - generic [ref=e439]: "# 知识图谱"
+                  - link "View all posts tagged with Claude Code" [ref=e440] [cursor=pointer]:
+                    - /url: /archive/?tag=Claude%20Code
+                    - generic [ref=e441]: "# Claude Code"
+                  - link "View all posts tagged with 开发工具" [ref=e442] [cursor=pointer]:
+                    - /url: /archive/?tag=%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7
+                    - generic [ref=e443]: "# 开发工具"
+              - link "GitHub 热门项目观察：Understand Anything，把代码变成可探索的知识图谱" [ref=e444] [cursor=pointer]:
+                - /url: /posts/2026-05-26-understand-anything/
+                - img [ref=e445]
+          - generic [ref=e447]:
+            - link "上一页":
+              - /url: ""
+              - img
+            - generic [ref=e449]: "1"
+            - link "下一页":
+              - /url: ""
+              - img
+          - generic [ref=e453]:
+            - generic [ref=e454]:
+              - text: © 2026 黑利群. All Rights Reserved. /
+              - link "RSS" [ref=e455] [cursor=pointer]:
+                - /url: /rss/
+              - text: /
+              - link "Atom" [ref=e456] [cursor=pointer]:
+                - /url: /atom/
+              - text: /
+              - link "Sitemap" [ref=e457] [cursor=pointer]:
+                - /url: /sitemap-index.xml
+            - generic [ref=e458]:
+              - text: Powered by
+              - link "Astro" [ref=e459] [cursor=pointer]:
+                - /url: https://astro.build
+              - text: "&"
+              - link "Mizuki" [ref=e460] [cursor=pointer]:
+                - /url: https://github.com/Cui1914
+              - text: Version
+              - link "9.0" [ref=e461] [cursor=pointer]:
+                - /url: https://github.com/Cui1914
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - button "目录":
+              - img
+      - generic:
+        - generic:
+          - button "主页":
+            - img
+      - generic:
+        - generic:
+          - button "Back to Top":
+            - img

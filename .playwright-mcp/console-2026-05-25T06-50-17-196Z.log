@@ -1,0 +1,20 @@
+[     137ms] [ERROR] Failed to load resource: the server responded with a status of 504 (Outdated Optimize Dep) @ http://localhost:3000/@id/astro/runtime/client/dev-toolbar/entrypoint.js:0
+[     137ms] [LOG] TOC Config: {enable: true, depth: 2, useJapaneseBadge: false} @ http://localhost:3000/posts/encrypted-example/:16155
+[     361ms] [LOG] Pagefind is not available in development mode. Using mock data. @ http://localhost:3000/src/components/organisms/navigation/Search.svelte:195
+[     361ms] [LOG] Pagefind status on init: false @ http://localhost:3000/src/components/organisms/navigation/Search.svelte:191
+[     367ms] [LOG] PanelHandler: 初始化完成 @ http://localhost:3000/src/scripts/handlers/panel-handler.ts:35
+[     368ms] [LOG] SwupManager: 初始化完成 @ http://localhost:3000/src/scripts/swup-manager.ts?t=1779691804497:51
+[   55340ms] [LOG] TOC Config: {enable: true, depth: 2, useJapaneseBadge: false} @ http://localhost:3000/posts/encrypted-example/:16155
+[   55387ms] [ERROR] Failed to load resource: the server responded with a status of 504 (Outdated Optimize Dep) @ http://localhost:3000/@id/astro/runtime/client/dev-toolbar/entrypoint.js:0
+[   55638ms] [LOG] Pagefind is not available in development mode. Using mock data. @ http://localhost:3000/src/components/organisms/navigation/Search.svelte:195
+[   55638ms] [LOG] Pagefind status on init: false @ http://localhost:3000/src/components/organisms/navigation/Search.svelte:191
+[   55678ms] [LOG] PanelHandler: 初始化完成 @ http://localhost:3000/src/scripts/handlers/panel-handler.ts:35
+[   55678ms] [LOG] SwupManager: 初始化完成 @ http://localhost:3000/src/scripts/swup-manager.ts?t=1779691804497:51
+[   78273ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:3000/@vite/client:1598
+[  104999ms] [LOG] TOC Config: {enable: true, depth: 2, useJapaneseBadge: false} @ http://localhost:3000/posts/encrypted-example/:16155
+[  106131ms] [ERROR] Failed to load resource: the server responded with a status of 504 (Outdated Optimize Dep) @ http://localhost:3000/node_modules/.vite/deps/svelte_internal_disclose-version.js?v=0bcf7fea:0
+[  106131ms] [ERROR] Failed to load resource: the server responded with a status of 504 (Outdated Optimize Dep) @ http://localhost:3000/node_modules/.vite/deps/svelte_internal_flags_legacy.js?v=0bcf7fea:0
+[  106131ms] [ERROR] Failed to load resource: the server responded with a status of 504 (Outdated Optimize Dep) @ http://localhost:3000/node_modules/.vite/deps/svelte_internal_client.js?v=0bcf7fea:0
+[  106131ms] [ERROR] Failed to load resource: the server responded with a status of 504 (Outdated Optimize Dep) @ http://localhost:3000/node_modules/.vite/deps/@iconify_svelte.js?v=0bcf7fea:0
+[  106132ms] [ERROR] Failed to load resource: the server responded with a status of 504 (Outdated Optimize Dep) @ http://localhost:3000/node_modules/.vite/deps/svelte.js?v=0bcf7fea:0
+[  106295ms] [LOG] TOC Config: {enable: true, depth: 2, useJapaneseBadge: false} @ http://localhost:3000/posts/encrypted-example/:16155

@@ -1,0 +1,26 @@
+{
+  "viewport": {
+    "width": 1088,
+    "height": 731
+  },
+  "bannerRect": {
+    "x": 0,
+    "y": 0,
+    "width": 1073,
+    "height": 731,
+    "top": 0,
+    "right": 1073,
+    "bottom": 731,
+    "left": 0
+  },
+  "mainRect": {
+    "x": 0,
+    "y": 731,
+    "width": 1073,
+    "height": 1458,
+    "top": 731,
+    "right": 1073,
+    "bottom": 2189,
+    "left": 0
+  }
+}

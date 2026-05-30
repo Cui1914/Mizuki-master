@@ -1,0 +1,93 @@
+[     251ms] [LOG] TOC Config: {enable: true, depth: 2, useJapaneseBadge: false} @ http://localhost:3001/:16155
+[     523ms] [LOG] Pagefind is not available in development mode. Using mock data. @ http://localhost:3001/src/components/organisms/navigation/Search.svelte:195
+[     523ms] [LOG] Pagefind status on init: false @ http://localhost:3001/src/components/organisms/navigation/Search.svelte:191
+[     580ms] [LOG] PanelHandler: 初始化完成 @ http://localhost:3001/src/scripts/handlers/panel-handler.ts:35
+[     581ms] [LOG] SwupManager: 初始化完成 @ http://localhost:3001/src/scripts/swup-manager.ts?t=1779638270677:51
+[   29153ms] [LOG] TOC Config: {enable: true, depth: 2, useJapaneseBadge: false} @ :13
+[   38253ms] [LOG] Mermaid library loaded successfully @ :686
+[   62777ms] [LOG] TOC Config: {enable: true, depth: 2, useJapaneseBadge: false} @ :13
+[   81289ms] [LOG] TOC Config: {enable: true, depth: 2, useJapaneseBadge: false} @ :13
+[   83423ms] [LOG] TOC Config: {enable: true, depth: 2, useJapaneseBadge: false} @ :13
+[  161678ms] [ERROR] %cAstro background: linear-gradient(66.77deg, #D83333 0%, #F041FF 100%); color: white; padding-inline: 4px; border-radius: 2px; font-family: monospace; Error while running audit's match function: TypeError: Failed to fetch @ http://localhost:3001/node_modules/.vite/deps/chunk-C36SEBYI.js?v=f6f9060c:22
+[  161847ms] [LOG] TOC Config: {enable: true, depth: 2, useJapaneseBadge: false} @ http://localhost:3001/:16155
+[  162726ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/assets/mobile-banner/1.jpg:0
+[  162814ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/assets/mobile-banner/2.jpg:0
+[  163208ms] [LOG] Pagefind is not available in development mode. Using mock data. @ http://localhost:3001/src/components/organisms/navigation/Search.svelte:195
+[  163209ms] [LOG] Pagefind status on init: false @ http://localhost:3001/src/components/organisms/navigation/Search.svelte:191
+[  163215ms] [LOG] PanelHandler: 初始化完成 @ http://localhost:3001/src/scripts/handlers/panel-handler.ts:35
+[  163217ms] [LOG] SwupManager: 初始化完成 @ http://localhost:3001/src/scripts/swup-manager.ts?t=1779638279488:51
+[  165379ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/assets/mobile-banner/2.jpg:0
+[  166016ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/assets/mobile-banner/2.jpg:0
+[  167014ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/assets/mobile-banner/2.jpg:0
+[  169800ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/assets/mobile-banner/2.jpg:0
+[  171025ms] [LOG] TOC Config: {enable: true, depth: 2, useJapaneseBadge: false} @ :13
+[  171173ms] [LOG] [Friends Global] Script loaded @ http://localhost:3001/js/friends-page-handler.js:4
+[  171173ms] [LOG] [Friends Global] initFriendsPage called @ http://localhost:3001/js/friends-page-handler.js:18
+[  171173ms] [LOG] [Friends Global] Found elements: {cards: 8, filters: 11, copyButtons: 8} @ http://localhost:3001/js/friends-page-handler.js:33
+[  171174ms] [LOG] [Friends Global] ✅ Initialization complete with 20 listeners @ http://localhost:3001/js/friends-page-handler.js:175
+[  171174ms] [LOG] [Friends Global] Init succeeded @ http://localhost:3001/js/friends-page-handler.js:187
+[  171174ms] [LOG] [Friends Global] All listeners registered @ http://localhost:3001/js/friends-page-handler.js:275
+[  171576ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/assets/mobile-banner/2.jpg:0
+[  175258ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/assets/mobile-banner/2.jpg:0
+[  175769ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/assets/mobile-banner/2.jpg:0
+[  177312ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/assets/mobile-banner/2.jpg:0
+[  179809ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/assets/mobile-banner/2.jpg:0
+[  180483ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/assets/mobile-banner/2.jpg:0
+[  183709ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/assets/mobile-banner/2.jpg:0
+[  185016ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/assets/mobile-banner/2.jpg:0
+[  189154ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/assets/mobile-banner/2.jpg:0
+[  189747ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/assets/mobile-banner/2.jpg:0
+[  190997ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/assets/mobile-banner/2.jpg:0
+[  195166ms] [ERROR] %cAstro background: linear-gradient(66.77deg, #D83333 0%, #F041FF 100%); color: white; padding-inline: 4px; border-radius: 2px; font-family: monospace; Error while running audit's match function: TypeError: Failed to fetch @ http://localhost:3001/node_modules/.vite/deps/chunk-C36SEBYI.js?v=f6f9060c:22
+[  195167ms] [ERROR] %cAstro background: linear-gradient(66.77deg, #D83333 0%, #F041FF 100%); color: white; padding-inline: 4px; border-radius: 2px; font-family: monospace; Error while running audit's match function: TypeError: Failed to fetch @ http://localhost:3001/node_modules/.vite/deps/chunk-C36SEBYI.js?v=f6f9060c:22
+[  195347ms] [LOG] TOC Config: {enable: true, depth: 2, useJapaneseBadge: false} @ http://localhost:3001/friends/:16155
+[  195829ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/assets/mobile-banner/1.jpg:0
+[  195931ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/assets/mobile-banner/4.jpg:0
+[  195944ms] [LOG] [Friends Global] Script loaded @ http://localhost:3001/js/friends-page-handler.js:4
+[  195944ms] [LOG] [Friends Global] All listeners registered @ http://localhost:3001/js/friends-page-handler.js:275
+[  196393ms] [LOG] Pagefind is not available in development mode. Using mock data. @ http://localhost:3001/src/components/organisms/navigation/Search.svelte:195
+[  196394ms] [LOG] Pagefind status on init: false @ http://localhost:3001/src/components/organisms/navigation/Search.svelte:191
+[  196454ms] [LOG] [Friends Global] DOMContentLoaded @ http://localhost:3001/js/friends-page-handler.js:245
+[  196454ms] [LOG] [Friends Global] initFriendsPage called @ http://localhost:3001/js/friends-page-handler.js:18
+[  196455ms] [LOG] [Friends Global] Found elements: {cards: 8, filters: 11, copyButtons: 8} @ http://localhost:3001/js/friends-page-handler.js:33
+[  196455ms] [LOG] [Friends Global] ✅ Initialization complete with 20 listeners @ http://localhost:3001/js/friends-page-handler.js:175
+[  196455ms] [LOG] [Friends Global] Init succeeded @ http://localhost:3001/js/friends-page-handler.js:187
+[  196522ms] [LOG] PanelHandler: 初始化完成 @ http://localhost:3001/src/scripts/handlers/panel-handler.ts:35
+[  196523ms] [LOG] SwupManager: 初始化完成 @ http://localhost:3001/src/scripts/swup-manager.ts?t=1779638297564:51
+[  199330ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/assets/mobile-banner/1.jpg:0
+[  199587ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/assets/mobile-banner/2.jpg:0
+[  199790ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/assets/mobile-banner/3.jpg:0
+[  199907ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/assets/mobile-banner/4.jpg:0
+[  200031ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/assets/mobile-banner/4.jpg:0
+[  200947ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/assets/mobile-banner/1.jpg:0
+[  201016ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/assets/mobile-banner/2.jpg:0
+[  201099ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/assets/mobile-banner/3.jpg:0
+[  201199ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/assets/mobile-banner/4.jpg:0
+[  201293ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/assets/mobile-banner/4.jpg:0
+[  203617ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/assets/mobile-banner/1.jpg:0
+[  203795ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/assets/mobile-banner/2.jpg:0
+[  203930ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/assets/mobile-banner/3.jpg:0
+[  204004ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/assets/mobile-banner/4.jpg:0
+[  204131ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/assets/mobile-banner/4.jpg:0
+[  204803ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/assets/mobile-banner/1.jpg:0
+[  204871ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/assets/mobile-banner/2.jpg:0
+[  204952ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/assets/mobile-banner/3.jpg:0
+[  205030ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/assets/mobile-banner/4.jpg:0
+[  205148ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/assets/mobile-banner/4.jpg:0
+[  209076ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/assets/mobile-banner/1.jpg:0
+[  209180ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/assets/mobile-banner/2.jpg:0
+[  209272ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/assets/mobile-banner/3.jpg:0
+[  209356ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/assets/mobile-banner/4.jpg:0
+[  209449ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/assets/mobile-banner/4.jpg:0
+[  213965ms] [LOG] TOC Config: {enable: true, depth: 2, useJapaneseBadge: false} @ http://localhost:3001/friends/:16155
+[  214133ms] [LOG] [Friends Global] Script loaded @ http://localhost:3001/js/friends-page-handler.js:4
+[  214133ms] [LOG] [Friends Global] All listeners registered @ http://localhost:3001/js/friends-page-handler.js:275
+[  214742ms] [LOG] Pagefind is not available in development mode. Using mock data. @ http://localhost:3001/src/components/organisms/navigation/Search.svelte:195
+[  214742ms] [LOG] Pagefind status on init: false @ http://localhost:3001/src/components/organisms/navigation/Search.svelte:191
+[  214748ms] [LOG] [Friends Global] DOMContentLoaded @ http://localhost:3001/js/friends-page-handler.js:245
+[  214748ms] [LOG] [Friends Global] initFriendsPage called @ http://localhost:3001/js/friends-page-handler.js:18
+[  214748ms] [LOG] [Friends Global] Found elements: {cards: 8, filters: 11, copyButtons: 8} @ http://localhost:3001/js/friends-page-handler.js:33
+[  214748ms] [LOG] [Friends Global] ✅ Initialization complete with 20 listeners @ http://localhost:3001/js/friends-page-handler.js:175
+[  214749ms] [LOG] [Friends Global] Init succeeded @ http://localhost:3001/js/friends-page-handler.js:187
+[  214836ms] [LOG] PanelHandler: 初始化完成 @ http://localhost:3001/src/scripts/handlers/panel-handler.ts:35
+[  214838ms] [LOG] SwupManager: 初始化完成 @ http://localhost:3001/src/scripts/swup-manager.ts?t=1779638297564:51

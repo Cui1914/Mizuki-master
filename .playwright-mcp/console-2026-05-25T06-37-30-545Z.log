@@ -1,0 +1,5 @@
+[     310ms] [LOG] TOC Config: {enable: true, depth: 2, useJapaneseBadge: false} @ https://mizuki-master-two.vercel.app/:253
+[     529ms] [LOG] PanelHandler: 初始化完成 @ https://mizuki-master-two.vercel.app/_astro/Layout.astro_astro_type_script_index_0_lang.Br5ImHqn.js:19
+[     530ms] [LOG] SwupManager: 初始化完成 @ https://mizuki-master-two.vercel.app/_astro/Layout.astro_astro_type_script_index_0_lang.Br5ImHqn.js:19
+[    2635ms] [LOG] Fallback: Initializing search after timeout. @ https://mizuki-master-two.vercel.app/_astro/Search.D1GXwrQa.js:5
+[    2636ms] [LOG] Pagefind status on init: false @ https://mizuki-master-two.vercel.app/_astro/Search.D1GXwrQa.js:5

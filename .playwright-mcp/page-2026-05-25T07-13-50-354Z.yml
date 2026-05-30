@@ -1,0 +1,524 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e5]:
+    - link "黑利群" [ref=e6] [cursor=pointer]:
+      - /url: /
+      - generic [ref=e8]: 黑利群
+    - generic [ref=e9]:
+      - link "主页" [ref=e11] [cursor=pointer]:
+        - /url: /
+        - img [ref=e12]
+        - generic [ref=e14]: 主页
+      - link "归档" [ref=e16] [cursor=pointer]:
+        - /url: /archive/
+        - img [ref=e17]
+        - generic [ref=e19]: 归档
+      - button "链接" [ref=e21]:
+        - img [ref=e22]
+        - generic [ref=e24]: 链接
+        - img [ref=e25]
+      - button "我的" [ref=e28]:
+        - img [ref=e29]
+        - generic [ref=e31]: 我的
+        - img [ref=e32]
+      - button "关于" [ref=e35]:
+        - img [ref=e36]
+        - generic [ref=e38]: 关于
+        - img [ref=e39]
+      - button "其他" [ref=e42]:
+        - img [ref=e43]
+        - generic [ref=e45]: 其他
+        - img [ref=e46]
+    - generic [ref=e48]:
+      - button "Search" [ref=e52] [cursor=pointer]:
+        - img
+        - textbox "搜索" [ref=e53]
+      - generic:
+        - generic:
+          - generic:
+            - heading "目录" [level=3]
+            - button "Close TOC"
+          - generic:
+            - paragraph: 当前页面没有目录
+      - button "Display Settings" [ref=e54]:
+        - img [ref=e55]
+      - button "切换到网格模式" [ref=e58]:
+        - img [ref=e60]
+      - menu [ref=e64]:
+        - menuitem "Wallpaper Mode" [ref=e65]:
+          - img [ref=e66]
+        - generic:
+          - generic:
+            - menuitem "横幅模式"
+            - menuitem "全屏模式"
+            - menuitem "隐藏壁纸"
+      - button "Light/Dark Mode" [ref=e69]:
+        - img [ref=e71]
+        - img [ref=e74]
+    - generic:
+      - generic:
+        - link "主页":
+          - /url: /
+          - generic:
+            - img
+            - text: 主页
+          - img
+      - generic:
+        - link "归档":
+          - /url: /archive/
+          - generic:
+            - img
+            - text: 归档
+          - img
+      - generic:
+        - generic:
+          - button "链接":
+            - generic:
+              - img
+              - text: 链接
+            - img
+          - generic:
+            - link "GitHub":
+              - /url: https://github.com/Cui1914
+              - generic:
+                - img
+                - text: GitHub
+              - img
+            - link "Bilibili":
+              - /url: https://space.bilibili.com/353704869?spm_id_from=333.1007.0.0
+              - generic:
+                - img
+                - text: Bilibili
+              - img
+            - link "Gitee":
+              - /url: https://gitee.com/Heiliqun
+              - generic:
+                - img
+                - text: Gitee
+              - img
+      - generic:
+        - generic:
+          - button "我的":
+            - generic:
+              - img
+              - text: 我的
+            - img
+          - generic:
+            - link "追番":
+              - /url: /anime/
+              - generic:
+                - img
+                - text: 追番
+            - link "日记":
+              - /url: /diary/
+              - generic:
+                - img
+                - text: 日记
+            - link "相册":
+              - /url: /albums/
+              - generic:
+                - img
+                - text: 相册
+            - link "我的设备":
+              - /url: /devices/
+              - generic:
+                - img
+                - text: 我的设备
+      - generic:
+        - generic:
+          - button "关于":
+            - generic:
+              - img
+              - text: 关于
+            - img
+          - generic:
+            - link "关于":
+              - /url: /about/
+              - generic:
+                - img
+                - text: 关于
+            - link "友链":
+              - /url: /friends/
+              - generic:
+                - img
+                - text: 友链
+      - generic:
+        - generic:
+          - button "其他":
+            - generic:
+              - img
+              - text: 其他
+            - img
+          - generic:
+            - link "项目展示":
+              - /url: /projects/
+              - generic:
+                - img
+                - text: 项目展示
+            - link "技能展示":
+              - /url: /skills/
+              - generic:
+                - img
+                - text: 技能展示
+            - link "时间线":
+              - /url: /timeline/
+              - generic:
+                - img
+                - text: 时间线
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - text: 主题色
+            - button "Reset to Default"
+          - generic:
+            - generic: "240"
+        - generic:
+          - slider "主题色": "240"
+  - generic [ref=e76]:
+    - generic [ref=e79]:
+      - img "Desktop banner image 1"
+    - img [ref=e81]
+  - generic [ref=e87]:
+    - generic [ref=e88]:
+      - generic [ref=e89]:
+        - generic [ref=e90]:
+          - generic [ref=e92]:
+            - generic [ref=e93]:
+              - link "Go to About Page" [ref=e94] [cursor=pointer]:
+                - /url: /about/
+                - generic:
+                  - img
+                - img "Profile Image of the Author" [ref=e97]
+              - generic [ref=e98]:
+                - generic [ref=e99]: 黑利群
+                - generic [ref=e102]: Vib
+                - generic [ref=e103]:
+                  - link "GitHub" [ref=e104] [cursor=pointer]:
+                    - /url: https://github.com/Cui1914
+                    - img [ref=e105]
+                  - link "Bilibili" [ref=e107] [cursor=pointer]:
+                    - /url: "#"
+                    - img [ref=e108]
+                  - link "Discord" [ref=e110] [cursor=pointer]:
+                    - /url: "#"
+                    - img [ref=e111]
+            - generic [ref=e113]:
+              - generic [ref=e114]: 公告
+              - generic [ref=e116]:
+                - generic [ref=e117]: 欢迎来到黑利群的博客！
+                - generic [ref=e118]:
+                  - link "了解更多" [ref=e120] [cursor=pointer]:
+                    - /url: /about/
+                  - button "关闭" [ref=e121]:
+                    - img [ref=e122]
+            - generic [ref=e124]:
+              - generic [ref=e125]: 标签
+              - generic [ref=e127]:
+                - link "View all posts with the Blogging tag" [ref=e128] [cursor=pointer]:
+                  - /url: /archive/?tag=Blogging
+                  - text: Blogging
+                - link "View all posts with the Encryption tag" [ref=e129] [cursor=pointer]:
+                  - /url: /archive/?tag=Encryption
+                  - text: Encryption
+                - link "View all posts with the Markdown tag" [ref=e130] [cursor=pointer]:
+                  - /url: /archive/?tag=Markdown
+                  - text: Markdown
+                - link "View all posts with the Test tag" [ref=e131] [cursor=pointer]:
+                  - /url: /archive/?tag=Test
+                  - text: Test
+          - generic [ref=e134]:
+            - generic [ref=e135]: 目录
+            - paragraph [ref=e141]: 当前页面没有目录
+        - generic [ref=e143]:
+          - generic [ref=e145]:
+            - generic [ref=e146]:
+              - generic [ref=e147]: 站点统计
+              - generic [ref=e149]:
+                - generic [ref=e150]:
+                  - generic [ref=e151]:
+                    - img [ref=e153]
+                    - generic [ref=e155]: 文章
+                  - generic [ref=e157]: "2"
+                - generic [ref=e158]:
+                  - generic [ref=e159]:
+                    - img [ref=e161]
+                    - generic [ref=e163]: 分类
+                  - generic [ref=e165]: "2"
+                - generic [ref=e166]:
+                  - generic [ref=e167]:
+                    - img [ref=e169]
+                    - generic [ref=e171]: 标签
+                  - generic [ref=e173]: "4"
+                - generic [ref=e174]:
+                  - generic [ref=e175]:
+                    - img [ref=e177]
+                    - generic [ref=e179]: 总字数
+                  - generic [ref=e181]: 1,823
+                - generic [ref=e182]:
+                  - generic [ref=e183]:
+                    - img [ref=e185]
+                    - generic [ref=e187]: 运行天数
+                  - generic [ref=e188]:
+                    - generic [ref=e189]: "7"
+                    - generic [ref=e190]: 天
+                - generic [ref=e191]:
+                  - generic [ref=e192]:
+                    - img [ref=e194]
+                    - generic [ref=e196]: 最后活动
+                  - generic [ref=e197]:
+                    - generic [ref=e198]: "490"
+                    - generic [ref=e199]: 天前
+            - generic [ref=e202]:
+              - generic [ref=e203]:
+                - button "Select month or year" [ref=e205] [cursor=pointer]:
+                  - generic [ref=e206]: 2026年 5月
+                - generic [ref=e207]:
+                  - button "Previous month" [ref=e208]:
+                    - img [ref=e209]
+                  - button "Next month" [ref=e211]:
+                    - img [ref=e212]
+              - generic [ref=e215]:
+                - generic [ref=e216]:
+                  - generic [ref=e217]: 一
+                  - generic [ref=e218]: 二
+                  - generic [ref=e219]: 三
+                  - generic [ref=e220]: 四
+                  - generic [ref=e221]: 五
+                  - generic [ref=e222]: 六
+                  - generic [ref=e223]: 日
+                - generic [ref=e224]:
+                  - button "1" [ref=e229] [cursor=pointer]
+                  - button "2" [ref=e230] [cursor=pointer]
+                  - button "3" [ref=e231] [cursor=pointer]
+                  - button "4" [ref=e232] [cursor=pointer]
+                  - button "5" [ref=e233] [cursor=pointer]
+                  - button "6" [ref=e234] [cursor=pointer]
+                  - button "7" [ref=e235] [cursor=pointer]
+                  - button "8" [ref=e236] [cursor=pointer]
+                  - button "9" [ref=e237] [cursor=pointer]
+                  - button "10" [ref=e238] [cursor=pointer]
+                  - button "11" [ref=e239] [cursor=pointer]
+                  - button "12" [ref=e240] [cursor=pointer]
+                  - button "13" [ref=e241] [cursor=pointer]
+                  - button "14" [ref=e242] [cursor=pointer]
+                  - button "15" [ref=e243] [cursor=pointer]
+                  - button "16" [ref=e244] [cursor=pointer]
+                  - button "17" [ref=e245] [cursor=pointer]
+                  - button "18" [ref=e246] [cursor=pointer]
+                  - button "19" [ref=e247] [cursor=pointer]
+                  - button "20" [ref=e248] [cursor=pointer]
+                  - button "21" [ref=e249] [cursor=pointer]
+                  - button "22" [ref=e250] [cursor=pointer]
+                  - button "23" [ref=e251] [cursor=pointer]
+                  - button "24" [ref=e252] [cursor=pointer]
+                  - button "25" [ref=e253] [cursor=pointer]
+                  - button "26" [ref=e254] [cursor=pointer]
+                  - button "27" [ref=e255] [cursor=pointer]
+                  - button "28" [ref=e256] [cursor=pointer]
+                  - button "29" [ref=e257] [cursor=pointer]
+                  - button "30" [ref=e258] [cursor=pointer]
+                  - button "31" [ref=e259] [cursor=pointer]
+          - generic [ref=e262]:
+            - generic [ref=e263]: 分类
+            - generic [ref=e264]:
+              - link "View all posts in the Examples category" [ref=e265] [cursor=pointer]:
+                - /url: /archive/?category=Examples
+                - button "Examples 1" [ref=e266]:
+                  - generic [ref=e267]:
+                    - generic [ref=e268]: Examples
+                    - generic [ref=e269]: "1"
+              - link "View all posts in the Technology category" [ref=e270] [cursor=pointer]:
+                - /url: /archive/?category=Technology
+                - button "Technology 1" [ref=e271]:
+                  - generic [ref=e272]:
+                    - generic [ref=e273]: Technology
+                    - generic [ref=e274]: "1"
+      - main [ref=e275]:
+        - generic [ref=e276]:
+          - generic [ref=e278]:
+            - generic [ref=e279]:
+              - generic [ref=e280]:
+                - heading "我的追番记录" [level=1] [ref=e281]
+                - paragraph [ref=e282]: 记录我的二次元之旅
+              - generic [ref=e284]:
+                - button "全部" [ref=e285] [cursor=pointer]
+                - button "在看" [ref=e286] [cursor=pointer]
+                - button "想看" [ref=e287] [cursor=pointer]
+                - button "看过" [ref=e288] [cursor=pointer]
+            - generic [ref=e290]:
+              - generic [ref=e291]:
+                - generic [ref=e292]:
+                  - link "黑色四叶草" [ref=e293] [cursor=pointer]:
+                    - /url: https://www.bilibili.com/bangumi/play/ss6422
+                    - img "黑色四叶草" [ref=e295]
+                    - img [ref=e299]
+                  - generic [ref=e301]: ✓ 看过
+                  - generic [ref=e302]:
+                    - img [ref=e303]
+                    - generic [ref=e305]: "9.5"
+                - generic [ref=e306]:
+                  - heading "黑色四叶草" [level=3] [ref=e307]
+                  - paragraph [ref=e308]: 曾经险些遭到魔神毁灭的世界，拯救它的是一位被后世称为魔法帝的魔导士。没有魔力的少年亚斯塔，仍以成为魔法帝为目标不断前进。
+                  - generic [ref=e309]:
+                    - generic [ref=e310]:
+                      - generic [ref=e311]: 年份
+                      - generic [ref=e312]: "2017"
+                    - generic [ref=e313]:
+                      - generic [ref=e314]: 制作
+                      - generic "日本" [ref=e315]
+                    - generic [ref=e316]:
+                      - generic [ref=e317]: 漫画改
+                      - generic [ref=e318]: 热血
+                      - generic [ref=e319]: 奇幻
+                      - generic [ref=e320]: 战斗
+                      - generic [ref=e321]: 魔法
+                      - generic [ref=e322]: 冒险
+              - generic [ref=e323]:
+                - generic [ref=e324]:
+                  - link "我的青春恋爱物语果然有问题。完" [ref=e325] [cursor=pointer]:
+                    - /url: https://www.bilibili.com/bangumi/play/ss32998
+                    - img "我的青春恋爱物语果然有问题。完" [ref=e327]
+                    - img [ref=e331]
+                  - generic [ref=e333]: ✓ 看过
+                  - generic [ref=e334]:
+                    - img [ref=e335]
+                    - generic [ref=e337]: "8.9"
+                - generic [ref=e338]:
+                  - heading "我的青春恋爱物语果然有问题。完" [level=3] [ref=e339]
+                  - paragraph [ref=e340]: 比企谷八幡、雪之下雪乃与由比滨结衣的侍奉部故事迎来终章。别扭的青春与真实的愿望，在一次次选择中走向答案。
+                  - generic [ref=e341]:
+                    - generic [ref=e342]:
+                      - generic [ref=e343]: 年份
+                      - generic [ref=e344]: "2020"
+                    - generic [ref=e345]:
+                      - generic [ref=e346]: 制作
+                      - generic "日本" [ref=e347]
+                    - generic [ref=e348]:
+                      - generic [ref=e349]: 校园
+                      - generic [ref=e350]: 恋爱
+                      - generic [ref=e351]: 小说改
+              - generic [ref=e352]:
+                - generic [ref=e353]:
+                  - link "我的青春恋爱物语果然有问题。续" [ref=e354] [cursor=pointer]:
+                    - /url: https://www.bilibili.com/bangumi/play/ss1540
+                    - img "我的青春恋爱物语果然有问题。续" [ref=e356]
+                    - img [ref=e360]
+                  - generic [ref=e362]: ✓ 看过
+                  - generic [ref=e363]:
+                    - img [ref=e364]
+                    - generic [ref=e366]: "9.8"
+                - generic [ref=e367]:
+                  - heading "我的青春恋爱物语果然有问题。续" [level=3] [ref=e368]
+                  - paragraph [ref=e369]: 个性别扭的比企谷八幡继续在侍奉部中处理委托，与雪之下雪乃、由比滨结衣一起面对更加复杂的人际关系。
+                  - generic [ref=e370]:
+                    - generic [ref=e371]:
+                      - generic [ref=e372]: 年份
+                      - generic [ref=e373]: "2015"
+                    - generic [ref=e374]:
+                      - generic [ref=e375]: 制作
+                      - generic "日本" [ref=e376]
+                    - generic [ref=e377]:
+                      - generic [ref=e378]: 日常
+                      - generic [ref=e379]: 校园
+                      - generic [ref=e380]: 恋爱
+                      - generic [ref=e381]: 小说改
+              - generic [ref=e382]:
+                - generic [ref=e383]:
+                  - link "四月是你的谎言" [ref=e384] [cursor=pointer]:
+                    - /url: https://www.bilibili.com/bangumi/play/ss1699
+                    - img "四月是你的谎言" [ref=e386]
+                    - img [ref=e390]
+                  - generic [ref=e392]: ▶ 在看
+                  - generic [ref=e393]:
+                    - img [ref=e394]
+                    - generic [ref=e396]: "9.8"
+                  - generic [ref=e400]: 5/22 ( 23%)
+                - generic [ref=e401]:
+                  - heading "四月是你的谎言" [level=3] [ref=e402]
+                  - paragraph [ref=e403]: 曾经的钢琴神童有马公生在母亲离世后听不见钢琴声，直到小提琴少女宫园薰闯入他的生活，音乐与青春重新开始流动。
+                  - generic [ref=e404]:
+                    - generic [ref=e405]:
+                      - generic [ref=e406]: 年份
+                      - generic [ref=e407]: "2014"
+                    - generic [ref=e408]:
+                      - generic [ref=e409]: 制作
+                      - generic "日本" [ref=e410]
+                    - generic [ref=e411]:
+                      - generic [ref=e412]: 少女
+                      - generic [ref=e413]: 音乐
+                      - generic [ref=e414]: 催泪
+                      - generic [ref=e415]: 恋爱
+                      - generic [ref=e416]: 漫画改
+              - generic [ref=e417]:
+                - generic [ref=e418]:
+                  - link "灵笼 第二季" [ref=e419] [cursor=pointer]:
+                    - /url: https://www.bilibili.com/bangumi/play/ss46585
+                    - img "灵笼 第二季" [ref=e421]
+                    - img [ref=e425]
+                  - generic [ref=e427]: ▶ 在看
+                  - generic [ref=e428]:
+                    - img [ref=e429]
+                    - generic [ref=e431]: "9.8"
+                  - generic [ref=e435]: 12/12 ( 100%)
+                - generic [ref=e436]:
+                  - heading "灵笼 第二季" [level=3] [ref=e437]
+                  - paragraph [ref=e438]: 数百年前，玛娜生态几乎毁灭人类文明。末日中的幸存者在猜忌、恐惧与希望之间，继续寻找人类延续的答案。
+                  - generic [ref=e439]:
+                    - generic [ref=e440]:
+                      - generic [ref=e441]: 年份
+                      - generic [ref=e442]: "2025"
+                    - generic [ref=e443]:
+                      - generic [ref=e444]: 制作
+                      - generic "中国大陆" [ref=e445]
+                    - generic [ref=e446]:
+                      - generic [ref=e447]: 原创
+                      - generic [ref=e448]: 热血
+                      - generic [ref=e449]: 奇幻
+                      - generic [ref=e450]: 战斗
+                      - generic [ref=e451]: 科幻
+          - generic [ref=e455]:
+            - generic [ref=e456]:
+              - text: © 2026 黑利群. All Rights Reserved. /
+              - link "RSS" [ref=e457] [cursor=pointer]:
+                - /url: /rss/
+              - text: /
+              - link "Atom" [ref=e458] [cursor=pointer]:
+                - /url: /atom/
+              - text: /
+              - link "Sitemap" [ref=e459] [cursor=pointer]:
+                - /url: /sitemap-index.xml
+            - generic [ref=e460]:
+              - text: Powered by
+              - link "Astro" [ref=e461] [cursor=pointer]:
+                - /url: https://astro.build
+              - text: "&"
+              - link "Mizuki" [ref=e462] [cursor=pointer]:
+                - /url: https://github.com/Cui1914
+              - text: Version
+              - link "9.0" [ref=e463] [cursor=pointer]:
+                - /url: https://github.com/Cui1914
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - button "目录":
+              - img
+      - button "主页" [ref=e466]:
+        - img [ref=e467]
+      - generic:
+        - generic:
+          - button "Back to Top":
+            - img
+  - generic [ref=e471]:
+    - button "Menu" [ref=e472]:
+      - img [ref=e474]
+      - generic: Menu
+    - button "Inspect" [ref=e478]:
+      - img [ref=e480]
+      - generic: Inspect
+    - button "Audit" [ref=e482]:
+      - img [ref=e484]
+      - generic: Audit
+    - button "Settings" [ref=e487]:
+      - img [ref=e489]
+      - generic: Settings

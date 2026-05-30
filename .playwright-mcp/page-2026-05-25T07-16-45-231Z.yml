@@ -1,0 +1,477 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e5]:
+    - link "黑利群" [ref=e6] [cursor=pointer]:
+      - /url: /
+      - generic [ref=e8]: 黑利群
+    - generic [ref=e9]:
+      - link "主页" [ref=e11] [cursor=pointer]:
+        - /url: /
+        - img [ref=e12]
+        - generic [ref=e14]: 主页
+      - link "归档" [ref=e16] [cursor=pointer]:
+        - /url: /archive/
+        - img [ref=e17]
+        - generic [ref=e19]: 归档
+      - button "链接" [ref=e21]:
+        - img [ref=e22]
+        - generic [ref=e24]: 链接
+        - img [ref=e25]
+      - button "我的" [ref=e28]:
+        - img [ref=e29]
+        - generic [ref=e31]: 我的
+        - img [ref=e32]
+      - button "关于" [ref=e35]:
+        - img [ref=e36]
+        - generic [ref=e38]: 关于
+        - img [ref=e39]
+      - button "其他" [ref=e42]:
+        - img [ref=e43]
+        - generic [ref=e45]: 其他
+        - img [ref=e46]
+    - generic [ref=e48]:
+      - button "Search" [ref=e52] [cursor=pointer]:
+        - textbox "搜索" [ref=e53]
+      - generic:
+        - generic:
+          - generic:
+            - heading "目录" [level=3]
+            - button "Close TOC"
+          - generic:
+            - paragraph: 当前页面没有目录
+      - button "Display Settings" [ref=e54]:
+        - img [ref=e55]
+      - button "切换到网格模式" [ref=e58]:
+        - img [ref=e60]
+      - menu [ref=e64]:
+        - menuitem "Wallpaper Mode" [ref=e65]
+        - generic:
+          - generic:
+            - menuitem "横幅模式"
+            - menuitem "全屏模式"
+            - menuitem "隐藏壁纸"
+      - button "Light/Dark Mode" [ref=e67]
+    - generic:
+      - generic:
+        - link "主页":
+          - /url: /
+          - generic:
+            - img
+            - text: 主页
+          - img
+      - generic:
+        - link "归档":
+          - /url: /archive/
+          - generic:
+            - img
+            - text: 归档
+          - img
+      - generic:
+        - generic:
+          - button "链接":
+            - generic:
+              - img
+              - text: 链接
+            - img
+          - generic:
+            - link "GitHub":
+              - /url: https://github.com/Cui1914
+              - generic:
+                - img
+                - text: GitHub
+              - img
+            - link "Bilibili":
+              - /url: https://space.bilibili.com/353704869?spm_id_from=333.1007.0.0
+              - generic:
+                - img
+                - text: Bilibili
+              - img
+            - link "Gitee":
+              - /url: https://gitee.com/Heiliqun
+              - generic:
+                - img
+                - text: Gitee
+              - img
+      - generic:
+        - generic:
+          - button "我的":
+            - generic:
+              - img
+              - text: 我的
+            - img
+          - generic:
+            - link "追番":
+              - /url: /anime/
+              - generic:
+                - img
+                - text: 追番
+            - link "日记":
+              - /url: /diary/
+              - generic:
+                - img
+                - text: 日记
+            - link "相册":
+              - /url: /albums/
+              - generic:
+                - img
+                - text: 相册
+            - link "我的设备":
+              - /url: /devices/
+              - generic:
+                - img
+                - text: 我的设备
+      - generic:
+        - generic:
+          - button "关于":
+            - generic:
+              - img
+              - text: 关于
+            - img
+          - generic:
+            - link "关于":
+              - /url: /about/
+              - generic:
+                - img
+                - text: 关于
+            - link "友链":
+              - /url: /friends/
+              - generic:
+                - img
+                - text: 友链
+      - generic:
+        - generic:
+          - button "其他":
+            - generic:
+              - img
+              - text: 其他
+            - img
+          - generic:
+            - link "项目展示":
+              - /url: /projects/
+              - generic:
+                - img
+                - text: 项目展示
+            - link "技能展示":
+              - /url: /skills/
+              - generic:
+                - img
+                - text: 技能展示
+            - link "时间线":
+              - /url: /timeline/
+              - generic:
+                - img
+                - text: 时间线
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - text: 主题色
+            - button "Reset to Default"
+          - generic:
+            - generic: "240"
+        - generic:
+          - slider "主题色": "240"
+  - generic [ref=e68]:
+    - generic [ref=e71]:
+      - img "Desktop banner image 3"
+    - img [ref=e73]
+  - generic [ref=e79]:
+    - generic [ref=e80]:
+      - generic [ref=e81]:
+        - generic [ref=e82]:
+          - generic [ref=e84]:
+            - generic [ref=e85]:
+              - link "Go to About Page" [ref=e86] [cursor=pointer]:
+                - /url: /about/
+                - generic:
+                  - img
+                - img "Profile Image of the Author" [ref=e89]
+              - generic [ref=e90]:
+                - generic [ref=e91]: 黑利群
+                - generic [ref=e94]: V
+                - generic [ref=e95]:
+                  - link "GitHub" [ref=e96] [cursor=pointer]:
+                    - /url: https://github.com/Cui1914
+                    - img [ref=e97]
+                  - link "Bilibili" [ref=e99] [cursor=pointer]:
+                    - /url: "#"
+                    - img [ref=e100]
+                  - link "Discord" [ref=e102] [cursor=pointer]:
+                    - /url: "#"
+                    - img [ref=e103]
+            - generic [ref=e105]:
+              - generic [ref=e106]: 公告
+              - generic [ref=e108]:
+                - generic [ref=e109]: 欢迎来到黑利群的博客！
+                - generic [ref=e110]:
+                  - link "了解更多" [ref=e112] [cursor=pointer]:
+                    - /url: /about/
+                  - button "关闭" [ref=e113]:
+                    - img [ref=e114]
+            - generic [ref=e116]:
+              - generic [ref=e117]: 标签
+              - generic [ref=e119]:
+                - link "View all posts with the Blogging tag" [ref=e120] [cursor=pointer]:
+                  - /url: /archive/?tag=Blogging
+                  - text: Blogging
+                - link "View all posts with the Encryption tag" [ref=e121] [cursor=pointer]:
+                  - /url: /archive/?tag=Encryption
+                  - text: Encryption
+                - link "View all posts with the Markdown tag" [ref=e122] [cursor=pointer]:
+                  - /url: /archive/?tag=Markdown
+                  - text: Markdown
+                - link "View all posts with the Test tag" [ref=e123] [cursor=pointer]:
+                  - /url: /archive/?tag=Test
+                  - text: Test
+          - generic [ref=e126]:
+            - generic [ref=e127]: 目录
+            - generic [ref=e131]:
+              - link "关于这个站点" [ref=e132] [cursor=pointer]:
+                - /url: "#关于这个站点"
+                - generic [ref=e133]: "1"
+                - generic [ref=e134]: 关于这个站点
+              - link "这里会写什么" [ref=e135] [cursor=pointer]:
+                - /url: "#这里会写什么"
+                - generic [ref=e136]: "2"
+                - generic [ref=e137]: 这里会写什么
+              - link "技术与创作" [ref=e138] [cursor=pointer]:
+                - /url: "#技术与创作"
+                - generic [ref=e141]: 技术与创作
+              - link "生活与兴趣" [ref=e142] [cursor=pointer]:
+                - /url: "#生活与兴趣"
+                - generic [ref=e145]: 生活与兴趣
+              - link "关于我" [ref=e146] [cursor=pointer]:
+                - /url: "#关于我"
+                - generic [ref=e147]: "3"
+                - generic [ref=e148]: 关于我
+              - link "联系方式" [ref=e149] [cursor=pointer]:
+                - /url: "#联系方式"
+                - generic [ref=e150]: "4"
+                - generic [ref=e151]: 联系方式
+        - generic [ref=e154]:
+          - generic [ref=e156]:
+            - generic [ref=e157]:
+              - generic [ref=e158]: 站点统计
+              - generic [ref=e160]:
+                - generic [ref=e161]:
+                  - generic [ref=e162]:
+                    - img [ref=e164]
+                    - generic [ref=e166]: 文章
+                  - generic [ref=e168]: "2"
+                - generic [ref=e169]:
+                  - generic [ref=e170]:
+                    - img [ref=e172]
+                    - generic [ref=e174]: 分类
+                  - generic [ref=e176]: "2"
+                - generic [ref=e177]:
+                  - generic [ref=e178]:
+                    - img [ref=e180]
+                    - generic [ref=e182]: 标签
+                  - generic [ref=e184]: "4"
+                - generic [ref=e185]:
+                  - generic [ref=e186]:
+                    - img [ref=e188]
+                    - generic [ref=e190]: 总字数
+                  - generic [ref=e192]: 1,823
+                - generic [ref=e193]:
+                  - generic [ref=e194]:
+                    - img [ref=e196]
+                    - generic [ref=e198]: 运行天数
+                  - generic [ref=e199]:
+                    - generic [ref=e200]: "7"
+                    - generic [ref=e201]: 天
+                - generic [ref=e202]:
+                  - generic [ref=e203]:
+                    - img [ref=e205]
+                    - generic [ref=e207]: 最后活动
+                  - generic [ref=e208]:
+                    - generic [ref=e209]: "490"
+                    - generic [ref=e210]: 天前
+            - generic [ref=e213]:
+              - generic [ref=e214]:
+                - button "Select month or year" [ref=e216] [cursor=pointer]:
+                  - generic [ref=e217]: 2026年 5月
+                - generic [ref=e218]:
+                  - button "Previous month" [ref=e219]
+                  - button "Next month" [ref=e220]
+              - generic [ref=e222]:
+                - generic [ref=e223]:
+                  - generic [ref=e224]: 一
+                  - generic [ref=e225]: 二
+                  - generic [ref=e226]: 三
+                  - generic [ref=e227]: 四
+                  - generic [ref=e228]: 五
+                  - generic [ref=e229]: 六
+                  - generic [ref=e230]: 日
+                - generic [ref=e231]:
+                  - button "1" [ref=e236] [cursor=pointer]
+                  - button "2" [ref=e237] [cursor=pointer]
+                  - button "3" [ref=e238] [cursor=pointer]
+                  - button "4" [ref=e239] [cursor=pointer]
+                  - button "5" [ref=e240] [cursor=pointer]
+                  - button "6" [ref=e241] [cursor=pointer]
+                  - button "7" [ref=e242] [cursor=pointer]
+                  - button "8" [ref=e243] [cursor=pointer]
+                  - button "9" [ref=e244] [cursor=pointer]
+                  - button "10" [ref=e245] [cursor=pointer]
+                  - button "11" [ref=e246] [cursor=pointer]
+                  - button "12" [ref=e247] [cursor=pointer]
+                  - button "13" [ref=e248] [cursor=pointer]
+                  - button "14" [ref=e249] [cursor=pointer]
+                  - button "15" [ref=e250] [cursor=pointer]
+                  - button "16" [ref=e251] [cursor=pointer]
+                  - button "17" [ref=e252] [cursor=pointer]
+                  - button "18" [ref=e253] [cursor=pointer]
+                  - button "19" [ref=e254] [cursor=pointer]
+                  - button "20" [ref=e255] [cursor=pointer]
+                  - button "21" [ref=e256] [cursor=pointer]
+                  - button "22" [ref=e257] [cursor=pointer]
+                  - button "23" [ref=e258] [cursor=pointer]
+                  - button "24" [ref=e259] [cursor=pointer]
+                  - button "25" [ref=e260] [cursor=pointer]
+                  - button "26" [ref=e261] [cursor=pointer]
+                  - button "27" [ref=e262] [cursor=pointer]
+                  - button "28" [ref=e263] [cursor=pointer]
+                  - button "29" [ref=e264] [cursor=pointer]
+                  - button "30" [ref=e265] [cursor=pointer]
+                  - button "31" [ref=e266] [cursor=pointer]
+          - generic [ref=e269]:
+            - generic [ref=e270]: 分类
+            - generic [ref=e271]:
+              - link "View all posts in the Examples category" [ref=e272] [cursor=pointer]:
+                - /url: /archive/?category=Examples
+                - button "Examples 1" [ref=e273]:
+                  - generic [ref=e274]:
+                    - generic [ref=e275]: Examples
+                    - generic [ref=e276]: "1"
+              - link "View all posts in the Technology category" [ref=e277] [cursor=pointer]:
+                - /url: /archive/?category=Technology
+                - button "Technology 1" [ref=e278]:
+                  - generic [ref=e279]:
+                    - generic [ref=e280]: Technology
+                    - generic [ref=e281]: "1"
+      - main [ref=e282]:
+        - generic [ref=e283]:
+          - generic [ref=e285]:
+            - heading "关于我们" [level=1] [ref=e287]
+            - generic [ref=e288]:
+              - paragraph [ref=e289]: 这里是黑利群的个人博客，记录学习、折腾、创作和生活里的碎片。
+              - paragraph [ref=e290]: 我喜欢把有意思的想法做成能看见、能点开、能继续完善的小东西。这个站点会放一些 Vibecoding 相关的尝试，也会记录前端、AI 工具、番剧、日常和项目实践。
+              - generic [ref=e291]:
+                - heading "关于这个站点#" [level=2] [ref=e292]:
+                  - text: 关于这个站点
+                  - link "#" [ref=e293] [cursor=pointer]:
+                    - /url: "#关于这个站点"
+                - paragraph [ref=e294]:
+                  - text: 这个博客基于
+                  - strong [ref=e295]: Astro
+                  - text: 和
+                  - link "Mizuki" [ref=e296] [cursor=pointer]:
+                    - /url: https://github.com/LyraVoid/Mizuki
+                  - text: 主题搭建，经过了一些个人化调整。
+                - link "LyraVoid / Mizuki Description not set NaN NaN 0K" [ref=e297] [cursor=pointer]:
+                  - /url: https://github.com/LyraVoid/Mizuki
+                  - generic [ref=e299]:
+                    - generic [ref=e302]: LyraVoid
+                    - generic [ref=e303]: /
+                    - generic [ref=e304]: Mizuki
+                  - generic [ref=e306]: Description not set
+                  - generic [ref=e307]:
+                    - generic [ref=e308]: NaN
+                    - generic [ref=e309]: NaN
+                    - generic [ref=e310]: 0K
+              - generic [ref=e311]:
+                - heading "这里会写什么#" [level=2] [ref=e312]:
+                  - text: 这里会写什么
+                  - link "#" [ref=e313] [cursor=pointer]:
+                    - /url: "#这里会写什么"
+                - generic [ref=e314]:
+                  - heading "技术与创作#" [level=3] [ref=e315]:
+                    - text: 技术与创作
+                    - link "#" [ref=e316] [cursor=pointer]:
+                      - /url: "#技术与创作"
+                  - list [ref=e317]:
+                    - listitem [ref=e318]:
+                      - strong [ref=e319]: Vibecoding
+                      - text: ：记录用 AI 辅助写代码、做页面、改项目的过程。
+                    - listitem [ref=e320]:
+                      - strong [ref=e321]: 前端实践
+                      - text: ：分享 Astro、TypeScript、样式调整和部署踩坑。
+                    - listitem [ref=e322]:
+                      - strong [ref=e323]: 项目记录
+                      - text: ：把正在做的小项目、页面改造和灵感整理下来。
+                - generic [ref=e324]:
+                  - heading "生活与兴趣#" [level=3] [ref=e325]:
+                    - text: 生活与兴趣
+                    - link "#" [ref=e326] [cursor=pointer]:
+                      - /url: "#生活与兴趣"
+                  - list [ref=e327]:
+                    - listitem [ref=e328]:
+                      - strong [ref=e329]: 追番记录
+                      - text: ：整理最近在看、看过和想看的番剧。
+                    - listitem [ref=e330]:
+                      - strong [ref=e331]: 日记碎片
+                      - text: ：写一点日常、想法和阶段性的记录。
+                    - listitem [ref=e332]:
+                      - strong [ref=e333]: 收藏与链接
+                      - text: ：放一些常用工具、朋友站点和有价值的资源。
+              - generic [ref=e334]:
+                - heading "关于我#" [level=2] [ref=e335]:
+                  - text: 关于我
+                  - link "#" [ref=e336] [cursor=pointer]:
+                    - /url: "#关于我"
+                - paragraph [ref=e337]: 我是黑利群，一个喜欢折腾网站、研究 AI 工具、也喜欢把想法慢慢做出来的人。
+                - paragraph [ref=e338]: 这个博客不追求一次写得很完整，更像是一个长期更新的工作台：想到什么就记录什么，做完什么就留下痕迹。
+              - generic [ref=e339]:
+                - heading "联系方式#" [level=2] [ref=e340]:
+                  - text: 联系方式
+                  - link "#" [ref=e341] [cursor=pointer]:
+                    - /url: "#联系方式"
+                - paragraph [ref=e342]: 你可以通过顶部导航里的 GitHub、Bilibili、Gitee 等链接找到我。
+                - separator [ref=e343]
+                - paragraph [ref=e344]: 欢迎来到黑利群的博客。
+          - generic [ref=e348]:
+            - generic [ref=e349]:
+              - text: © 2026 黑利群. All Rights Reserved. /
+              - link "RSS" [ref=e350] [cursor=pointer]:
+                - /url: /rss/
+              - text: /
+              - link "Atom" [ref=e351] [cursor=pointer]:
+                - /url: /atom/
+              - text: /
+              - link "Sitemap" [ref=e352] [cursor=pointer]:
+                - /url: /sitemap-index.xml
+            - generic [ref=e353]:
+              - text: Powered by
+              - link "Astro" [ref=e354] [cursor=pointer]:
+                - /url: https://astro.build
+              - text: "&"
+              - link "Mizuki" [ref=e355] [cursor=pointer]:
+                - /url: https://github.com/Cui1914
+              - text: Version
+              - link "9.0" [ref=e356] [cursor=pointer]:
+                - /url: https://github.com/Cui1914
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - button "目录":
+              - img
+      - button "主页" [ref=e359]:
+        - img [ref=e360]
+      - generic:
+        - generic:
+          - button "Back to Top":
+            - img
+  - generic [ref=e364]:
+    - button "Menu" [ref=e365]:
+      - img [ref=e367]
+      - generic: Menu
+    - button "Inspect" [ref=e371]:
+      - img [ref=e373]
+      - generic: Inspect
+    - button "Audit" [ref=e375]:
+      - img [ref=e377]
+      - generic: Audit
+    - button "Settings" [ref=e380]:
+      - img [ref=e382]
+      - generic: Settings

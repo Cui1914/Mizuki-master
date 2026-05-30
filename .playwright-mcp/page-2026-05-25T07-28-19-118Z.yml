@@ -1,0 +1,716 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e5]:
+    - link "黑利群" [ref=e6] [cursor=pointer]:
+      - /url: /
+      - generic [ref=e8]: 黑利群
+    - generic [ref=e9]:
+      - link "主页" [ref=e11] [cursor=pointer]:
+        - /url: /
+        - img [ref=e12]
+        - generic [ref=e14]: 主页
+      - link "归档" [ref=e16] [cursor=pointer]:
+        - /url: /archive/
+        - img [ref=e17]
+        - generic [ref=e19]: 归档
+      - button "链接" [ref=e21]:
+        - img [ref=e22]
+        - generic [ref=e24]: 链接
+        - img [ref=e25]
+      - button "我的" [ref=e28]:
+        - img [ref=e29]
+        - generic [ref=e31]: 我的
+        - img [ref=e32]
+      - button "关于" [ref=e35]:
+        - img [ref=e36]
+        - generic [ref=e38]: 关于
+        - img [ref=e39]
+      - button "其他" [ref=e42]:
+        - img [ref=e43]
+        - generic [ref=e45]: 其他
+        - img [ref=e46]
+    - generic [ref=e48]:
+      - button "Search" [ref=e52] [cursor=pointer]:
+        - textbox "搜索" [ref=e53]
+      - generic:
+        - generic:
+          - generic:
+            - heading "目录" [level=3]
+            - button "Close TOC"
+          - generic:
+            - paragraph: 当前页面没有目录
+      - button "Display Settings" [ref=e54]:
+        - img [ref=e55]
+      - button "切换到网格模式" [ref=e58]:
+        - img [ref=e60]
+      - menu [ref=e64]:
+        - menuitem "Wallpaper Mode" [ref=e65]
+        - generic:
+          - generic:
+            - menuitem "横幅模式"
+            - menuitem "全屏模式"
+            - menuitem "隐藏壁纸"
+      - button "Light/Dark Mode" [ref=e67]
+    - generic:
+      - generic:
+        - link "主页":
+          - /url: /
+          - generic:
+            - img
+            - text: 主页
+          - img
+      - generic:
+        - link "归档":
+          - /url: /archive/
+          - generic:
+            - img
+            - text: 归档
+          - img
+      - generic:
+        - generic:
+          - button "链接":
+            - generic:
+              - img
+              - text: 链接
+            - img
+          - generic:
+            - link "GitHub":
+              - /url: https://github.com/Cui1914
+              - generic:
+                - img
+                - text: GitHub
+              - img
+            - link "Bilibili":
+              - /url: https://space.bilibili.com/353704869?spm_id_from=333.1007.0.0
+              - generic:
+                - img
+                - text: Bilibili
+              - img
+            - link "Gitee":
+              - /url: https://gitee.com/Heiliqun
+              - generic:
+                - img
+                - text: Gitee
+              - img
+      - generic:
+        - generic:
+          - button "我的":
+            - generic:
+              - img
+              - text: 我的
+            - img
+          - generic:
+            - link "追番":
+              - /url: /anime/
+              - generic:
+                - img
+                - text: 追番
+            - link "日记":
+              - /url: /diary/
+              - generic:
+                - img
+                - text: 日记
+            - link "相册":
+              - /url: /albums/
+              - generic:
+                - img
+                - text: 相册
+            - link "我的设备":
+              - /url: /devices/
+              - generic:
+                - img
+                - text: 我的设备
+      - generic:
+        - generic:
+          - button "关于":
+            - generic:
+              - img
+              - text: 关于
+            - img
+          - generic:
+            - link "关于":
+              - /url: /about/
+              - generic:
+                - img
+                - text: 关于
+            - link "友链":
+              - /url: /friends/
+              - generic:
+                - img
+                - text: 友链
+      - generic:
+        - generic:
+          - button "其他":
+            - generic:
+              - img
+              - text: 其他
+            - img
+          - generic:
+            - link "项目展示":
+              - /url: /projects/
+              - generic:
+                - img
+                - text: 项目展示
+            - link "技能展示":
+              - /url: /skills/
+              - generic:
+                - img
+                - text: 技能展示
+            - link "时间线":
+              - /url: /timeline/
+              - generic:
+                - img
+                - text: 时间线
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - text: 主题色
+            - button "Reset to Default"
+          - generic:
+            - generic: "240"
+        - generic:
+          - slider "主题色": "240"
+  - generic [ref=e68]:
+    - generic [ref=e71]:
+      - img "Desktop banner image 1"
+    - img [ref=e73]
+  - generic [ref=e79]:
+    - generic [ref=e80]:
+      - generic [ref=e81]:
+        - generic [ref=e82]:
+          - generic [ref=e84]:
+            - generic [ref=e85]:
+              - link "Go to About Page" [ref=e86] [cursor=pointer]:
+                - /url: /about/
+                - generic:
+                  - img
+                - img "Profile Image of the Author" [ref=e89]
+              - generic [ref=e90]:
+                - generic [ref=e91]: 黑利群
+                - generic [ref=e94]: V
+                - generic [ref=e95]:
+                  - link "GitHub" [ref=e96] [cursor=pointer]:
+                    - /url: https://github.com/Cui1914
+                    - img [ref=e97]
+                  - link "Bilibili" [ref=e99] [cursor=pointer]:
+                    - /url: "#"
+                    - img [ref=e100]
+            - generic [ref=e102]:
+              - generic [ref=e103]: 公告
+              - generic [ref=e105]:
+                - generic [ref=e106]: 欢迎来到黑利群的博客！
+                - generic [ref=e107]:
+                  - link "了解更多" [ref=e109] [cursor=pointer]:
+                    - /url: /about/
+                  - button "关闭" [ref=e110]:
+                    - img [ref=e111]
+            - generic [ref=e113]:
+              - generic [ref=e114]: 标签
+              - generic [ref=e116]:
+                - link "View all posts with the Blogging tag" [ref=e117] [cursor=pointer]:
+                  - /url: /archive/?tag=Blogging
+                  - text: Blogging
+                - link "View all posts with the Encryption tag" [ref=e118] [cursor=pointer]:
+                  - /url: /archive/?tag=Encryption
+                  - text: Encryption
+                - link "View all posts with the Markdown tag" [ref=e119] [cursor=pointer]:
+                  - /url: /archive/?tag=Markdown
+                  - text: Markdown
+                - link "View all posts with the Test tag" [ref=e120] [cursor=pointer]:
+                  - /url: /archive/?tag=Test
+                  - text: Test
+          - generic [ref=e123]:
+            - generic [ref=e124]: 目录
+            - paragraph [ref=e130]: 当前页面没有目录
+        - generic [ref=e132]:
+          - generic [ref=e134]:
+            - generic [ref=e135]:
+              - generic [ref=e136]: 站点统计
+              - generic [ref=e138]:
+                - generic [ref=e139]:
+                  - generic [ref=e140]:
+                    - img [ref=e142]
+                    - generic [ref=e144]: 文章
+                  - generic [ref=e146]: "2"
+                - generic [ref=e147]:
+                  - generic [ref=e148]:
+                    - img [ref=e150]
+                    - generic [ref=e152]: 分类
+                  - generic [ref=e154]: "2"
+                - generic [ref=e155]:
+                  - generic [ref=e156]:
+                    - img [ref=e158]
+                    - generic [ref=e160]: 标签
+                  - generic [ref=e162]: "4"
+                - generic [ref=e163]:
+                  - generic [ref=e164]:
+                    - img [ref=e166]
+                    - generic [ref=e168]: 总字数
+                  - generic [ref=e170]: 1,823
+                - generic [ref=e171]:
+                  - generic [ref=e172]:
+                    - img [ref=e174]
+                    - generic [ref=e176]: 运行天数
+                  - generic [ref=e177]:
+                    - generic [ref=e178]: "7"
+                    - generic [ref=e179]: 天
+                - generic [ref=e180]:
+                  - generic [ref=e181]:
+                    - img [ref=e183]
+                    - generic [ref=e185]: 最后活动
+                  - generic [ref=e186]:
+                    - generic [ref=e187]: "490"
+                    - generic [ref=e188]: 天前
+            - generic [ref=e191]:
+              - generic [ref=e192]:
+                - button "Select month or year" [ref=e194] [cursor=pointer]:
+                  - generic [ref=e195]: 2026年 5月
+                - generic [ref=e196]:
+                  - button "Previous month" [ref=e197]
+                  - button "Next month" [ref=e198]
+              - generic [ref=e200]:
+                - generic [ref=e201]:
+                  - generic [ref=e202]: 一
+                  - generic [ref=e203]: 二
+                  - generic [ref=e204]: 三
+                  - generic [ref=e205]: 四
+                  - generic [ref=e206]: 五
+                  - generic [ref=e207]: 六
+                  - generic [ref=e208]: 日
+                - generic [ref=e209]:
+                  - button "1" [ref=e214] [cursor=pointer]
+                  - button "2" [ref=e215] [cursor=pointer]
+                  - button "3" [ref=e216] [cursor=pointer]
+                  - button "4" [ref=e217] [cursor=pointer]
+                  - button "5" [ref=e218] [cursor=pointer]
+                  - button "6" [ref=e219] [cursor=pointer]
+                  - button "7" [ref=e220] [cursor=pointer]
+                  - button "8" [ref=e221] [cursor=pointer]
+                  - button "9" [ref=e222] [cursor=pointer]
+                  - button "10" [ref=e223] [cursor=pointer]
+                  - button "11" [ref=e224] [cursor=pointer]
+                  - button "12" [ref=e225] [cursor=pointer]
+                  - button "13" [ref=e226] [cursor=pointer]
+                  - button "14" [ref=e227] [cursor=pointer]
+                  - button "15" [ref=e228] [cursor=pointer]
+                  - button "16" [ref=e229] [cursor=pointer]
+                  - button "17" [ref=e230] [cursor=pointer]
+                  - button "18" [ref=e231] [cursor=pointer]
+                  - button "19" [ref=e232] [cursor=pointer]
+                  - button "20" [ref=e233] [cursor=pointer]
+                  - button "21" [ref=e234] [cursor=pointer]
+                  - button "22" [ref=e235] [cursor=pointer]
+                  - button "23" [ref=e236] [cursor=pointer]
+                  - button "24" [ref=e237] [cursor=pointer]
+                  - button "25" [ref=e238] [cursor=pointer]
+                  - button "26" [ref=e239] [cursor=pointer]
+                  - button "27" [ref=e240] [cursor=pointer]
+                  - button "28" [ref=e241] [cursor=pointer]
+                  - button "29" [ref=e242] [cursor=pointer]
+                  - button "30" [ref=e243] [cursor=pointer]
+                  - button "31" [ref=e244] [cursor=pointer]
+          - generic [ref=e247]:
+            - generic [ref=e248]: 分类
+            - generic [ref=e249]:
+              - link "View all posts in the Examples category" [ref=e250] [cursor=pointer]:
+                - /url: /archive/?category=Examples
+                - button "Examples 1" [ref=e251]:
+                  - generic [ref=e252]:
+                    - generic [ref=e253]: Examples
+                    - generic [ref=e254]: "1"
+              - link "View all posts in the Technology category" [ref=e255] [cursor=pointer]:
+                - /url: /archive/?category=Technology
+                - button "Technology 1" [ref=e256]:
+                  - generic [ref=e257]:
+                    - generic [ref=e258]: Technology
+                    - generic [ref=e259]: "1"
+      - main [ref=e260]:
+        - generic [ref=e261]:
+          - generic [ref=e263]:
+            - generic [ref=e264]:
+              - heading "时间线" [level=1] [ref=e265]
+              - paragraph [ref=e266]: 我的成长历程和重要里程碑
+            - generic [ref=e268]:
+              - button "全部 (9)" [ref=e269] [cursor=pointer]:
+                - img [ref=e270]
+                - generic [ref=e272]: 全部
+                - generic [ref=e273]: (9)
+              - button "教育经历 (3)" [ref=e274] [cursor=pointer]:
+                - img [ref=e275]
+                - generic [ref=e277]: 教育经历
+                - generic [ref=e278]: (3)
+              - button "工作经历 (2)" [ref=e279] [cursor=pointer]:
+                - img [ref=e280]
+                - generic [ref=e282]: 工作经历
+                - generic [ref=e283]: (2)
+              - button "项目经历 (2)" [ref=e284] [cursor=pointer]:
+                - img [ref=e285]
+                - generic [ref=e287]: 项目经历
+                - generic [ref=e288]: (2)
+              - button "成就荣誉 (2)" [ref=e289] [cursor=pointer]:
+                - img [ref=e290]
+                - generic [ref=e292]: 成就荣誉
+                - generic [ref=e293]: (2)
+            - generic [ref=e294]:
+              - generic [ref=e295]:
+                - img [ref=e297]
+                - generic [ref=e300]:
+                  - generic [ref=e301]:
+                    - img [ref=e303]
+                    - generic [ref=e305]:
+                      - generic [ref=e306]:
+                        - heading "Studying Computer Science and Technology" [level=3] [ref=e307]
+                        - img [ref=e308]
+                      - paragraph [ref=e310]: Beijing Institute of Technology
+                    - generic [ref=e311]:
+                      - generic [ref=e312]: 当前状态
+                      - generic [ref=e313]: 教育经历
+                  - paragraph [ref=e314]: Currently studying Computer Science and Technology, focusing on web development and software engineering.
+                  - generic [ref=e315]:
+                    - generic [ref=e316]: Java
+                    - generic [ref=e317]: Python
+                    - generic [ref=e318]: JavaScript
+                    - generic [ref=e319]: HTML/CSS
+                    - generic [ref=e320]: MySQL
+                  - generic [ref=e321]:
+                    - heading "成就荣誉" [level=4] [ref=e322]
+                    - list [ref=e323]:
+                      - listitem [ref=e324]:
+                        - img [ref=e325]
+                        - generic [ref=e327]: "Current GPA: 3.6/4.0"
+                      - listitem [ref=e328]:
+                        - img [ref=e329]
+                        - generic [ref=e331]: Completed data structures and algorithms course project
+                      - listitem [ref=e332]:
+                        - img [ref=e333]
+                        - generic [ref=e335]: Participated in multiple course project developments
+                  - generic [ref=e336]:
+                    - generic [ref=e337]:
+                      - img [ref=e338]
+                      - text: 2022年9月 - 至今
+                    - generic [ref=e340]:
+                      - img [ref=e341]
+                      - text: 3 年 10 个月
+                    - generic [ref=e343]:
+                      - img [ref=e344]
+                      - text: Beijing
+              - generic [ref=e346]:
+                - img [ref=e348]
+                - generic [ref=e351]:
+                  - generic [ref=e352]:
+                    - img [ref=e354]
+                    - generic [ref=e357]:
+                      - heading "Mizuki Personal Blog Project" [level=3] [ref=e358]
+                      - img [ref=e359]
+                    - generic [ref=e362]: 项目经历
+                  - paragraph [ref=e363]: A personal blog website developed using the Astro framework as a practical project for learning frontend technologies.
+                  - generic [ref=e364]:
+                    - generic [ref=e365]: Astro
+                    - generic [ref=e366]: TypeScript
+                    - generic [ref=e367]: Tailwind CSS
+                    - generic [ref=e368]: Git
+                  - generic [ref=e369]:
+                    - heading "成就荣誉" [level=4] [ref=e370]
+                    - list [ref=e371]:
+                      - listitem [ref=e372]:
+                        - img [ref=e373]
+                        - generic [ref=e375]: Mastered modern frontend development tech stack
+                      - listitem [ref=e376]:
+                        - img [ref=e377]
+                        - generic [ref=e379]: Learned responsive design and user experience optimization
+                      - listitem [ref=e380]:
+                        - img [ref=e381]
+                        - generic [ref=e383]: Completed the full process from design to deployment
+                  - generic [ref=e384]:
+                    - generic [ref=e385]:
+                      - img [ref=e386]
+                      - text: 2024年6月 - 2024年8月
+                    - generic [ref=e388]:
+                      - img [ref=e389]
+                      - text: 3 个月
+                  - generic [ref=e391]:
+                    - link "GitHub Repository" [ref=e392] [cursor=pointer]:
+                      - /url: https://github.com/example/mizuki-blog
+                      - img [ref=e393]
+                      - text: GitHub Repository
+                    - link "Live Demo" [ref=e395] [cursor=pointer]:
+                      - /url: https://mizuki-demo.example.com
+                      - img [ref=e396]
+                      - text: Live Demo
+              - generic [ref=e398]:
+                - img [ref=e400]
+                - generic [ref=e403]:
+                  - generic [ref=e404]:
+                    - img [ref=e406]
+                    - generic [ref=e408]:
+                      - generic [ref=e409]:
+                        - heading "Frontend Development Intern" [level=3] [ref=e410]
+                        - img [ref=e411]
+                      - paragraph [ref=e413]: TechStart Internet Company · Frontend Development Intern
+                    - generic [ref=e415]: 工作经历
+                  - paragraph [ref=e416]: Summer internship at an internet company, participating in frontend development of web applications.
+                  - generic [ref=e417]:
+                    - generic [ref=e418]: React
+                    - generic [ref=e419]: JavaScript
+                    - generic [ref=e420]: CSS3
+                    - generic [ref=e421]: Git
+                    - generic [ref=e422]: Figma
+                  - generic [ref=e423]:
+                    - heading "成就荣誉" [level=4] [ref=e424]
+                    - list [ref=e425]:
+                      - listitem [ref=e426]:
+                        - img [ref=e427]
+                        - generic [ref=e429]: Completed user interface component development
+                      - listitem [ref=e430]:
+                        - img [ref=e431]
+                        - generic [ref=e433]: Learned team collaboration and code standards
+                      - listitem [ref=e434]:
+                        - img [ref=e435]
+                        - generic [ref=e437]: Received outstanding internship performance certificate
+                  - generic [ref=e438]:
+                    - generic [ref=e439]:
+                      - img [ref=e440]
+                      - text: 2024年7月 - 2024年8月
+                    - generic [ref=e442]:
+                      - img [ref=e443]
+                      - text: 3 个月
+                    - generic [ref=e445]:
+                      - img [ref=e446]
+                      - text: Beijing
+              - generic [ref=e448]:
+                - img [ref=e450]
+                - generic [ref=e453]:
+                  - generic [ref=e454]:
+                    - img [ref=e456]
+                    - generic [ref=e458]:
+                      - heading "Completed Web Development Online Course" [level=3] [ref=e460]
+                      - paragraph [ref=e461]: Mooc Website
+                    - generic [ref=e463]: 成就荣誉
+                  - paragraph [ref=e464]: Completed a full-stack web development online course, systematically learning frontend and backend development technologies.
+                  - generic [ref=e465]:
+                    - generic [ref=e466]: HTML
+                    - generic [ref=e467]: CSS
+                    - generic [ref=e468]: JavaScript
+                    - generic [ref=e469]: Node.js
+                    - generic [ref=e470]: Express
+                  - generic [ref=e471]:
+                    - heading "成就荣誉" [level=4] [ref=e472]
+                    - list [ref=e473]:
+                      - listitem [ref=e474]:
+                        - img [ref=e475]
+                        - generic [ref=e477]: Received course completion certificate
+                      - listitem [ref=e478]:
+                        - img [ref=e479]
+                        - generic [ref=e481]: Completed 5 practical projects
+                      - listitem [ref=e482]:
+                        - img [ref=e483]
+                        - generic [ref=e485]: Mastered full-stack development fundamentals
+                  - generic [ref=e486]:
+                    - generic [ref=e487]:
+                      - img [ref=e488]
+                      - text: 2024年1月 - 2024年5月
+                    - generic [ref=e490]:
+                      - img [ref=e491]
+                      - text: 5 个月
+                  - link "Course Certificate" [ref=e494] [cursor=pointer]:
+                    - /url: https://certificates.example.com/web-dev
+                    - img [ref=e495]
+                    - text: Course Certificate
+              - generic [ref=e497]:
+                - img [ref=e499]
+                - generic [ref=e502]:
+                  - generic [ref=e503]:
+                    - img [ref=e505]
+                    - heading "Student Management System Course Project" [level=3] [ref=e509]
+                    - generic [ref=e511]: 项目经历
+                  - paragraph [ref=e512]: Final project for the database course, developed a complete student information management system.
+                  - generic [ref=e513]:
+                    - generic [ref=e514]: Java
+                    - generic [ref=e515]: MySQL
+                    - generic [ref=e516]: Swing
+                    - generic [ref=e517]: JDBC
+                  - generic [ref=e518]:
+                    - heading "成就荣誉" [level=4] [ref=e519]
+                    - list [ref=e520]:
+                      - listitem [ref=e521]:
+                        - img [ref=e522]
+                        - generic [ref=e524]: Received excellent course project grade
+                      - listitem [ref=e525]:
+                        - img [ref=e526]
+                        - generic [ref=e528]: Implemented complete CRUD functionality
+                      - listitem [ref=e529]:
+                        - img [ref=e530]
+                        - generic [ref=e532]: Learned database design and optimization
+                  - generic [ref=e533]:
+                    - generic [ref=e534]:
+                      - img [ref=e535]
+                      - text: 2023年11月 - 2023年12月
+                    - generic [ref=e537]:
+                      - img [ref=e538]
+                      - text: 2 个月
+              - generic [ref=e540]:
+                - img [ref=e542]
+                - generic [ref=e545]:
+                  - generic [ref=e546]:
+                    - img [ref=e548]
+                    - generic [ref=e550]:
+                      - heading "University Programming Contest" [level=3] [ref=e552]
+                      - paragraph [ref=e553]: School of Computer Science
+                    - generic [ref=e554]:
+                      - generic [ref=e555]: 当前状态
+                      - generic [ref=e556]: 成就荣誉
+                  - paragraph [ref=e557]: Participated in a programming contest held by the university, improving algorithm and programming skills.
+                  - generic [ref=e558]:
+                    - generic [ref=e559]: C++
+                    - generic [ref=e560]: Algorithms
+                    - generic [ref=e561]: Data Structures
+                  - generic [ref=e562]:
+                    - heading "成就荣誉" [level=4] [ref=e563]
+                    - list [ref=e564]:
+                      - listitem [ref=e565]:
+                        - img [ref=e566]
+                        - generic [ref=e568]: Won third prize in university contest
+                      - listitem [ref=e569]:
+                        - img [ref=e570]
+                        - generic [ref=e572]: Improved algorithmic thinking ability
+                      - listitem [ref=e573]:
+                        - img [ref=e574]
+                        - generic [ref=e576]: Strengthened programming fundamentals
+                  - generic [ref=e577]:
+                    - generic [ref=e578]:
+                      - img [ref=e579]
+                      - text: 2023年10月 - 至今
+                    - generic [ref=e581]:
+                      - img [ref=e582]
+                      - text: 2 年 8 个月
+                    - generic [ref=e584]:
+                      - img [ref=e585]
+                      - text: Beijing Institute of Technology
+              - generic [ref=e587]:
+                - img [ref=e589]
+                - generic [ref=e592]:
+                  - generic [ref=e593]:
+                    - img [ref=e595]
+                    - heading "Part-time Programming Tutor" [level=3] [ref=e599]
+                    - generic [ref=e601]: 工作经历
+                  - paragraph [ref=e602]: Provided programming tutoring for high school students, helping them learn Python basics.
+                  - generic [ref=e603]:
+                    - generic [ref=e604]: Python
+                    - generic [ref=e605]: Teaching
+                    - generic [ref=e606]: Communication
+                  - generic [ref=e607]:
+                    - heading "成就荣誉" [level=4] [ref=e608]
+                    - list [ref=e609]:
+                      - listitem [ref=e610]:
+                        - img [ref=e611]
+                        - generic [ref=e613]: Helped 3 students master Python basics
+                      - listitem [ref=e614]:
+                        - img [ref=e615]
+                        - generic [ref=e617]: Improved expression and communication skills
+                      - listitem [ref=e618]:
+                        - img [ref=e619]
+                        - generic [ref=e621]: Gained teaching experience
+                  - generic [ref=e622]:
+                    - generic [ref=e623]:
+                      - img [ref=e624]
+                      - text: 2023年9月 - 2024年1月
+                    - generic [ref=e626]:
+                      - img [ref=e627]
+                      - text: 6 个月
+              - generic [ref=e629]:
+                - img [ref=e631]
+                - generic [ref=e634]:
+                  - generic [ref=e635]:
+                    - img [ref=e637]
+                    - generic [ref=e639]:
+                      - heading "High School Graduation" [level=3] [ref=e641]
+                      - paragraph [ref=e642]: No.1 High School of Jinan
+                    - generic [ref=e644]: 教育经历
+                  - paragraph [ref=e645]: Graduated from high school with excellent grades and was admitted to the Computer Science and Technology program at Beijing Institute of Technology.
+                  - generic [ref=e646]:
+                    - heading "成就荣誉" [level=4] [ref=e647]
+                    - list [ref=e648]:
+                      - listitem [ref=e649]:
+                        - img [ref=e650]
+                        - generic [ref=e652]: "College entrance exam score: 620"
+                      - listitem [ref=e653]:
+                        - img [ref=e654]
+                        - generic [ref=e656]: Received municipal model student award
+                      - listitem [ref=e657]:
+                        - img [ref=e658]
+                        - generic [ref=e660]: Won provincial second prize in math competition
+                  - generic [ref=e661]:
+                    - generic [ref=e662]:
+                      - img [ref=e663]
+                      - text: 2019年9月 - 2022年6月
+                    - generic [ref=e665]:
+                      - img [ref=e666]
+                      - text: 2 年 11 个月
+                    - generic [ref=e668]:
+                      - img [ref=e669]
+                      - text: Jinan, Shandong
+              - generic [ref=e671]:
+                - img [ref=e673]
+                - generic [ref=e676]:
+                  - generic [ref=e677]:
+                    - img [ref=e679]
+                    - heading "First Programming Experience" [level=3] [ref=e683]
+                    - generic [ref=e684]:
+                      - generic [ref=e685]: 当前状态
+                      - generic [ref=e686]: 教育经历
+                  - paragraph [ref=e687]: First encountered programming in high school IT class, started learning Python basic syntax.
+                  - generic [ref=e688]:
+                    - generic [ref=e689]: Python
+                    - generic [ref=e690]: Basic Programming Concepts
+                  - generic [ref=e691]:
+                    - heading "成就荣誉" [level=4] [ref=e692]
+                    - list [ref=e693]:
+                      - listitem [ref=e694]:
+                        - img [ref=e695]
+                        - generic [ref=e697]: Completed first "Hello World" program
+                      - listitem [ref=e698]:
+                        - img [ref=e699]
+                        - generic [ref=e701]: Learned basic loops and conditional statements
+                      - listitem [ref=e702]:
+                        - img [ref=e703]
+                        - generic [ref=e705]: Developed interest in programming
+                  - generic [ref=e706]:
+                    - generic [ref=e707]:
+                      - img [ref=e708]
+                      - text: 2021年3月 - 至今
+                    - generic [ref=e710]:
+                      - img [ref=e711]
+                      - text: 5 年 4 个月
+          - generic [ref=e716]:
+            - generic [ref=e717]:
+              - text: © 2026 黑利群. All Rights Reserved. /
+              - link "RSS" [ref=e718] [cursor=pointer]:
+                - /url: /rss/
+              - text: /
+              - link "Atom" [ref=e719] [cursor=pointer]:
+                - /url: /atom/
+              - text: /
+              - link "Sitemap" [ref=e720] [cursor=pointer]:
+                - /url: /sitemap-index.xml
+            - generic [ref=e721]:
+              - text: Powered by
+              - link "Astro" [ref=e722] [cursor=pointer]:
+                - /url: https://astro.build
+              - text: "&"
+              - link "Mizuki" [ref=e723] [cursor=pointer]:
+                - /url: https://github.com/Cui1914
+              - text: Version
+              - link "9.0" [ref=e724] [cursor=pointer]:
+                - /url: https://github.com/Cui1914
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - button "目录":
+              - img
+      - button "主页" [ref=e727]:
+        - img [ref=e728]
+      - generic:
+        - generic:
+          - button "Back to Top":
+            - img

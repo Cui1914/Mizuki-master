@@ -1,0 +1,159 @@
+---
+import { getEntry, render } from "astro:content";
+import Comment from "@components/comment/index.astro";
+import { FeaturedProjects } from "@components/features/featured-projects";
+import { PageHeader } from "@components/features/page-header";
+import { StatsGrid } from "@components/features/stats-grid";
+import { TechStack } from "@components/features/tech-stack";
+import Markdown from "@components/misc/Markdown.astro";
+import { siteConfig } from "../config";
+import { getAllTechStack, getFeaturedProjects } from "../data/projects";
+import I18nKey from "../i18n/i18nKey";
+import { i18n } from "../i18n/translation";
+import MainGridLayout from "../layouts/MainGridLayout.astro";
+import {
+	getCategoryList,
+	getSortedPosts,
+	getTagList,
+} from "../utils/content-utils";
+
+const aboutPost = await getEntry("spec", "about");
+
+if (!aboutPost) {
+	throw new Error("About page content not found");
+}
+
+const { Content } = await render(aboutPost);
+const title = i18n(I18nKey.about);
+
+const siteStartDate = siteConfig.siteStartDate || "2025-01-01";
+const posts = await getSortedPosts();
+const categories = await getCategoryList();
+const tags = await getTagList();
+
+let totalWords = 0;
+for (const post of posts) {
+	if (post.body) {
+		let text = post.body;
+		text = text.replace(/```[\s\S]*?```/g, "");
+		text = text.replace(/`[^`]+`/g, "");
+		const cjkPattern = /[一-龥぀-ゟ゠-ヿ가-힯　-〿＀-￯]/g;
+		const cjkMatches = text.match(cjkPattern);
+		const cjkCount = cjkMatches ? cjkMatches.length : 0;
+		const nonCjkText = text.replace(cjkPattern, " ");
+		const nonCjkWords = nonCjkText
+			.split(/\s+/)
+			.filter((word) => word.trim().length > 0);
+		totalWords += cjkCount + nonCjkWords.length;
+	}
+}
+
+const startDate = new Date(siteStartDate);
+const today = new Date();
+const runningDays = Math.ceil(
+	(today.getTime() - startDate.getTime()) / (1000 * 60 * 60 * 24),
+);
+
+const latestPost = posts.reduce((latest, post) => {
+	if (!latest) return post;
+	return post.data.published > latest.data.published ? post : latest;
+}, posts[0]);
+const lastPostDate = latestPost
+	? latestPost.data.published.toISOString()
+	: null;
+const daysSinceLastUpdate = lastPostDate
+	? Math.floor(
+			(today.getTime() - new Date(lastPostDate).getTime()) /
+				(1000 * 60 * 60 * 24),
+		)
+	: 0;
+
+function formatNumber(num: number): string {
+	return num.toLocaleString();
+}
+
+const stats = [
+	{
+		title: i18n(I18nKey.siteStatsPostCount),
+		value: formatNumber(posts.length),
+		icon: "material-symbols:article-outline",
+	},
+	{
+		title: i18n(I18nKey.siteStatsCategoryCount),
+		value: categories.length,
+		icon: "material-symbols:folder-outline",
+	},
+	{
+		title: i18n(I18nKey.siteStatsTagCount),
+		value: tags.length,
+		icon: "material-symbols:label-outline",
+	},
+	{
+		title: i18n(I18nKey.siteStatsTotalWords),
+		value: formatNumber(totalWords),
+		icon: "material-symbols:text-ad-outline-rounded",
+	},
+	{
+		title: i18n(I18nKey.siteStatsRunningDays),
+		value: formatNumber(runningDays),
+		icon: "material-symbols:calendar-clock-outline",
+	},
+	{
+		title: i18n(I18nKey.siteStatsLastUpdate),
+		value: `${daysSinceLastUpdate}${i18n(I18nKey.siteStatsDaysAgo).replace("{days}", "")}`,
+		icon: "material-symbols:ecg-heart-outline",
+	},
+];
+
+const techStack = getAllTechStack();
+const featuredProjects = getFeaturedProjects();
+---
+
+<MainGridLayout title={title}>
+  <!-- 引入右侧边栏布局管理器 -->
+  <script>
+    import("../scripts/right-sidebar-layout.js");
+  </script>
+  <div
+    class="flex w-full rounded-[var(--radius-large)] overflow-hidden relative min-h-32"
+  >
+    <div class="card-base z-10 px-9 py-6 relative w-full">
+      <PageHeader title={title} />
+
+      <!-- 从MD文件读取的内容 -->
+      <Markdown class="mt-2">
+        <Content />
+      </Markdown>
+
+      <!-- 技术栈 -->
+      {
+        techStack.length > 0 && (
+          <div class="mt-8">
+            <TechStack techStack={techStack} title={i18n(I18nKey.skills)} />
+          </div>
+        )
+      }
+
+      <!-- 精选项目 -->
+      {
+        featuredProjects.length > 0 && (
+          <div class="mt-8">
+            <FeaturedProjects
+              projects={featuredProjects}
+              title={i18n(I18nKey.projectsFeatured)}
+            />
+          </div>
+        )
+      }
+
+      <!-- 数据统计面板 -->
+      <div class="mt-8">
+        <StatsGrid stats={stats} columns={3} />
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-4">
+    <Comment path="/about/" />
+  </div>
+</MainGridLayout>
